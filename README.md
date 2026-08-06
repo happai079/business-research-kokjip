@@ -40,7 +40,8 @@ business-research-practice/
 │   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 완성차 기업의 가치사슬
 │   └── comparison-edtech-vs-automotive.md        # 두 기업 가치사슬 비교 분석
 ├── 03-ksf/
-│   └── new-entrant-top5-ksf.md                   # 신규 진입자를 위한 Top 5 핵심 성공 요인
+│   ├── new-entrant-top5-ksf.md                   # 신규 진입자를 위한 Top 5 핵심 성공 요인
+│   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
 └── ...          # 챕터별 산출물이 추가되는 대로 정리
 ```
 
