@@ -29,6 +29,11 @@
 ```
 business-research-practice/
 ├── README.md
+├── 01-porters-five-forces/
+│   ├── methodology.md                            # 분석 방법론 원문
+│   ├── case-01-ai-education-edtech.md            # 사례: AI AX/DX 교육 에듀테크 산업
+│   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 중심 자동차 산업
+│   └── comparison-edtech-vs-automotive.md        # 두 시장 비교 분석
 └── ...          # 챕터별 산출물이 추가되는 대로 정리
 ```
 
