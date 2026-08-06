@@ -12,6 +12,15 @@ Desktop.ini
 .env.*
 *.key
 
+# Images (learning material — keep local only)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.svg
+
 # Temp
 *.tmp
 *.log
