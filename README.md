@@ -34,8 +34,15 @@ business-research-practice/
 │   ├── case-01-ai-education-edtech.md            # 사례: AI AX/DX 교육 에듀테크 산업
 │   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 중심 자동차 산업
 │   └── comparison-edtech-vs-automotive.md        # 두 시장 비교 분석
+├── 02-value-chain/
+│   ├── methodology.md                            # 분석 방법론 (도메인 중립 질문표 + 치환 예시)
+│   ├── case-01-ai-education-edtech.md            # 사례: AX/DX 교육 사업자의 가치사슬
+│   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 완성차 기업의 가치사슬
+│   └── comparison-edtech-vs-automotive.md        # 두 기업 가치사슬 비교 분석
 └── ...          # 챕터별 산출물이 추가되는 대로 정리
 ```
+
+챕터 01의 두 시장을 챕터 02에서도 같은 대상으로 이어 분석했습니다. 01은 산업(외부) 구조를, 02는 기업(내부) 활동을 보므로 두 챕터를 함께 읽어야 "어디서 싸울지"와 "어떻게 싸울지"가 연결됩니다.
 
 ## 참고
 
