@@ -35,7 +35,7 @@ business-research-practice/
 │   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 중심 자동차 산업
 │   └── comparison-edtech-vs-automotive.md        # 두 시장 비교 분석
 ├── 02-value-chain/
-│   ├── methodology.md                            # 분석 방법론 (도메인 중립 질문표 + 치환 예시)
+│   ├── methodology.md                            # 분석 방법론 (도메인 중립 질문표 + 출력 포맷 + 치환 예시)
 │   ├── case-01-ai-education-edtech.md            # 사례: AX/DX 교육 사업자의 가치사슬
 │   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 완성차 기업의 가치사슬
 │   └── comparison-edtech-vs-automotive.md        # 두 기업 가치사슬 비교 분석
