@@ -166,11 +166,75 @@ KDT 연간 참여 인원        37,628명   🟢
 
 **①의 역할은 방어가 아니라 신뢰입니다.** 방어력은 0이지만 "이 개념은 채용공고 N건이 요구한다"는 표시가 수강생의 면접 답변([Ch05 01-C ⑧](../../05-persona-spectrum-journey-map/case-01-kokjip-lecture-review-prioritizer-journey-map.md))과 기관의 성과 보고 근거를 동시에 만듭니다.
 
-**남은 검증은 하나로 좁혀집니다** → [§6의 1순위](#6-미해소-항목).
+**남은 검증은 하나로 좁혀집니다** → [§7의 1순위](#7-미해소-항목).
 
 ---
 
-## 5. Ch04·Ch05로 되돌리는 것
+## 5. 추가 실사 — 다른 녹음 서비스는 녹음 권리·동의를 어떻게 처리하는가
+
+「강사가 녹음을 금지하면?」이라는 질문에 대해, 이미 같은 문제를 안고 운영 중인 서비스들을 조사했습니다. **네 가지 패턴이 나왔고, 그중 하나는 우리 앞선 판단을 수정하게 했습니다.**
+
+### 5-1. 패턴 A — 범용 녹음 서비스는 해결하지 않고 약관으로 넘긴다
+
+| 서비스 | 조항 |
+|---|---|
+| **클로바노트** | *"고객은 서비스를 사용 가능한 적법한 환경에서 이용해야 하며 … 적법하지 않은 방식으로 이용하여 문제가 발생할 경우 이로 인한 모든 책임은 고객에게 있습니다"* 🟢 · *"저작권 등 제3자의 권리 혹은 명예를 침해하는 행위를 해서는 안 됩니다"* 🟢 |
+| **다글로** | 가이드에 *"녹음 전, 참석자의 동의를 구하는 등 에티켓을 지켜주세요"* 🟢 — **의무가 아니라 에티켓 안내 수준** |
+| **Otter.ai** | *"users are solely responsible for providing any notices to, and obtaining consent from, individuals in connection with any recordings"* 🟢 |
+
+> **셋 다 저작권·동의 문제를 제품으로 풀지 않고 이용자 책임으로 이전합니다.** 우리도 같은 방식을 쓸 수 있고 그것이 업계 표준입니다 — 단 **개인 유입 경로에서만 통합니다.** 기관 계약에서는 상대방 법무가 이 조항을 그대로 되돌려 보냅니다.
+
+### 5-2. 패턴 B — 그 책임 이전이 실제로 방어막이 되지는 못한다
+
+**Otter.ai는 2025년 8월 이후 관련 집단소송 4건이 `In re Otter.AI Privacy Litigation`으로 병합됐습니다** 🟢. 연방 도청법(ECPA)과 캘리포니아 CIPA(양측 동의 법) 위반 주장이고, **CIPA 법정손해는 위반 1건당 $5,000** 🟢입니다. 쟁점은 사용자가 아니라 **비사용자(제3자)의 대화를 녹음·전사했다**는 것입니다.
+
+> **우리 맥락에 그대로 옮겨집니다.** 강의 녹음에서 화자는 강사만이 아닙니다 — **Q&A에 섞이는 다른 수강생의 음성**이 정확히 같은 구조입니다. 약관에 "네가 동의를 받아라"라고 써도 **제3자는 그 약관의 당사자가 아니므로 우리를 직접 겨눌 수 있습니다.** 대응 후보: 질문 구간 화자 분리 후 **비강사 발화 미저장**, 또는 강사 발화만 전사.
+
+### 5-3. 패턴 C — 데이터 봉쇄를 세일즈 포인트로 쓴다
+
+| 서비스 | 약속 |
+|---|---|
+| **티로(Tiro)** | **음성 데이터를 저장하지 않고 즉시 폐기** · 저장 데이터 전 구간 암호화 · **고객 데이터를 AI 모델 학습에 사용하지 않음** 🟢 — 이것을 엔터프라이즈 판매 근거로 전면에 씀 |
+| **클로바노트** | *"네이버는 이용자의 사전 승인 없이 … 저장 중인 녹음 파일에 접근 또는 사용하지 않습니다"* 🟢 |
+| **다글로** | 보유기간을 명시하지 않고 "목적 달성 후 지체 없이 파기", 회원 탈퇴 시 즉시 삭제 🟢. 다만 **음성·영상 파일과 변환 결과를 품질 개선 목적으로 수집**하고 AssemblyAI·OpenAI 등 외부로 전송 🟢 |
+
+> **「외부로 안 나가게 설계한다」는 방향은 이미 검증된 관행이고, 명시적으로 약속하는 쪽이 신뢰를 얻는 구조입니다.** 티로가 그것으로 기업 시장을 팝니다. 기관 판매를 하려면 필수 스펙이며, 다글로 수준(품질 개선 목적 수집 + 외부 전송)으로는 기관 법무를 통과하기 어렵습니다.
+
+### 5-4. 패턴 D — 강의 영역에서는 기관이 계약 틀을 만들고, **강사 동의는 여전히 개별로 받는다**
+
+해외 대학의 강의 녹화(Panopto·Echo360)는 예외 없이 **기관 계약 + 강사 opt-in** 구조입니다.
+
+| 기관 | 방식 |
+|---|---|
+| **UMass Lowell** | *"No class will be recorded without the expressed consent of the faculty member"* · **녹화물의 지식재산권은 강사가 보유** 🟢 |
+| **UCL** | opt-in이며 **거부에 이유를 제시할 필요가 없다** 🟢 |
+| **Warwick** | opt-in — 녹화와 공개에 동의해야 진행 🟢 |
+| **Aberdeen** | Panopto 사용 교직원은 **동의 계약 수락이 필수**. 교재 IP는 대학, **실연권은 강사 보유** 후 한시적 라이선스 🟢 |
+| **Southampton** | tutor–university 서면 합의 필수, 저작권 귀속은 기관 IP 규정·고용계약에 따름 🟢 |
+
+> **이 발견이 우리 앞선 판단을 수정합니다.** "기관 계약 한 번으로 강사 동의가 일괄 처리된다"고 썼는데, **세계 표준은 그 반대입니다** — 기관 계약은 **동의를 받는 경로와 표준 문서를 제공**하지만 **강사 개별 동의를 없애주지 않습니다.** 오히려 UCL처럼 **이유 없는 거부를 보장**하는 쪽이 일반적입니다.
+>
+> **다만 실질적으로는 훨씬 쉬워집니다.** 매번 학습자가 강사에게 부탁하는 대화가 **기관이 차수 시작 시 표준 동의서를 받는 절차**로 바뀌고, 강사 입장에서도 "앱이 내 강의를 가져간다"가 아니라 "기관 규정에 따라 동의한다"가 되므로 거부 심리가 낮아집니다. 여기서 UMass·Aberdeen 방식(**녹화물 IP·실연권을 강사에게 남긴다**)을 그대로 차용할 수 있습니다.
+
+### 5-5. 국내 법 해석은 갈려 있다
+
+대학 자료들이 서로 다르게 안내합니다 — 한쪽은 **"교수 동의 없는 녹음은 복제권 침해"**, 다른 쪽은 **"저작권법 제30조 사적이용 복제이므로 학습 목적 개인 녹음은 허락 없이 가능"** 🟢. 공통되는 것은 두 가지입니다: **배포·거래는 명확히 침해**이고, **영리 목적이 개입되면 사적이용 예외가 흔들린다**는 것.
+
+> **우리는 후자에 걸립니다.** 학습자 개인의 녹음이 사적이용이더라도, **유료 서비스가 그 파일을 받아 서버에서 처리하는 행위**는 별개 주체의 별개 복제입니다. 이 지점은 검색으로 결론이 나지 않았습니다 🔴 — **변호사 확인 항목**입니다.
+
+### 5-6. 우리 설계에 그대로 반영할 것
+
+| # | 조치 | 근거 패턴 |
+|---|---|---|
+| 1 | 약관에 **동의 확보는 이용자 책임** 조항 (개인 경로 방어선) | A |
+| 2 | **비강사 발화 미저장** 또는 강사 발화만 전사 (제3자 리스크 차단) | B |
+| 3 | **음성 전사 후 즉시 폐기 · AI 학습 미사용 · 반출 기능 부재**를 명시적으로 약속 | C |
+| 4 | 기관 계약에 **강사 opt-in 표준 동의서**를 포함하고, **녹화물 IP·실연권은 강사에게 남긴다** | D |
+| 5 | 강사의 **이유 없는 거부권**을 명시 — 거부 가능성을 보장하는 쪽이 도입 저항이 낮다 | D |
+
+---
+
+## 6. Ch04·Ch05로 되돌리는 것
 
 | 되돌리는 결론 | 반영 대상 |
 |---|---|
@@ -179,25 +243,27 @@ KDT 연간 참여 인원        37,628명   🟢
 | **판정 근거 확정 — ④ 강사 발화 1차 + ① 채용공고 설명 레이어, ② 탈락, ③ 적립**([§4-2](#4-2-확정--강사-발화로-출발선을-취업-이력으로-벽을)) | Ch04 §7 ②·§8 — 진입장벽 서술을 "미정"에서 **확정된 근거 조합**으로 교체 |
 | **채용 연계가 학습 구독보다 크다** — 성사 3%면 12.8억 vs 구독 9.5억 🟡 | Ch04 §7 ④를 추정에서 **정량 근거 있는 결론**으로 승격 |
 | **채용 연계에는 이해상충이 있다** | 신규 — 우선순위 판정의 중립성이 수익원과 충돌 |
+| **녹음 권리는 「기관 계약 + 강사 opt-in」이 세계 표준**([§5-4](#5-4-패턴-d--강의-영역에서는-기관이-계약-틀을-만들고-강사-동의는-여전히-개별로-받는다)) | Ch05 01-A~01-C — "계약 한 번으로 일괄 처리"를 **"계약이 동의 절차를 표준화한다"**로 정정 |
 | 우선순위의 판단 근거가 다르다(내부 데이터 vs 외부 기준) | Ch05 01-B의 Non-user·대체재 서술 |
 
 ---
 
-## 6. 미해소 항목
+## 7. 미해소 항목
 
 | 순위 | 항목 | 확보 경로 |
 |---|---|---|
 | **1** | **강사 발화의 「실무 중요도 신호」 밀도** 🔴 — ④를 1차 신호로 쓰기로 확정했으므로([§4-2](#4-2-확정--강사-발화로-출발선을-취업-이력으로-벽을)) 남은 질문은 "그 신호가 실제로 얼마나 나오는가" 하나 | **KDT 강의 녹취 3~5개에서 시간당 발생 횟수를 센다.** 시간당 2~3회면 6개월 과정에서 수백 개 신호로 ④가 성립하고, 0.2회면 ④ 단독으로는 성립하지 않아 ①의 비중을 올려야 한다. **하루짜리 실험인데 전략이 여기서 갈린다** |
-| **2** | 개인 유료 전환율 🔴 | 랜딩 테스트 (기존 [산정 근거](./kokjip-sizing-evidence.md) §5 1순위) |
-| **3** | 훈련기관의 도구 예산 집행 의향 🔴 | 훈련기관 인터뷰 (동 §5 2순위) |
-| **4** | 채용 매칭 성사율 🔴 | 채용 플랫폼과의 제휴 또는 파일럿 |
-| **5** | 다글로 등 기존 도구의 유료 전환율·ARPU 🔴 | 앱 분석 서비스 유료 데이터 |
-| **6** | 직업소개 관련 법적 요건 🔴 | 채용 연계 사업화 전 필수 확인 |
-| 7 | 국비 훈련기관 총수(KDT 외) 🔴 | HRD-Net 조회. 검색으로는 미확보 |
+| **2** | **유료 서비스가 강의 녹음물을 서버에서 처리하는 것이 사적이용 복제 예외를 벗어나는가** 🔴 | **변호사 확인.** §5-5에서 국내 대학 안내가 서로 갈리고 검색으로 결론이 나지 않았다. 첫 기관 계약 전 필수 |
+| **3** | 개인 유료 전환율 🔴 | 랜딩 테스트 (기존 [산정 근거](./kokjip-sizing-evidence.md) §5 1순위) |
+| **4** | 훈련기관의 도구 예산 집행 의향 🔴 | 훈련기관 인터뷰 (동 §5 2순위) |
+| **5** | 채용 매칭 성사율 🔴 | 채용 플랫폼과의 제휴 또는 파일럿 |
+| **6** | 다글로 등 기존 도구의 유료 전환율·ARPU 🔴 | 앱 분석 서비스 유료 데이터 |
+| **7** | 직업소개 관련 법적 요건 🔴 | 채용 연계 사업화 전 필수 확인 |
+| 8 | 국비 훈련기관 총수(KDT 외) 🔴 | HRD-Net 조회. 검색으로는 미확보 |
 
 ---
 
-## 7. 출처
+## 8. 출처
 
 **경쟁 실사**
 - ['AI 녹음' 최강자들의 대결…클로바 vs 다글로 — 액션파워](https://actionpower.kr/article/40)
@@ -212,5 +278,24 @@ KDT 연간 참여 인원        37,628명   🟢
 - [면접 제안으로 합격자가 확정됐습니다. 채용 수수료 정산은? — 원티드 고객센터](https://help.wanted.co.kr/hc/ko/articles/360036138851-%EB%A9%B4%EC%A0%91-%EC%A0%9C%EC%95%88%EC%9C%BC%EB%A1%9C-%ED%95%A9%EA%B2%A9%EC%9E%90%EA%B0%80-%ED%99%95%EC%A0%95-%EB%90%90%EC%8A%B5%EB%8B%88%EB%8B%A4-%EC%B1%84%EC%9A%A9-%EC%88%98%EC%88%98%EB%A3%8C-%EC%A0%95%EC%82%B0%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%98%EB%82%98%EC%9A%94)
 - [채용 수수료 — 원티드 고객센터](https://help.wanted.co.kr/hc/ko/sections/27392520990361-%EC%B1%84%EC%9A%A9-%EC%88%98%EC%88%98%EB%A3%8C)
 - [원티드 — 나무위키](https://namu.wiki/w/%EC%9B%90%ED%8B%B0%EB%93%9C(%EC%B1%84%EC%9A%A9%20%ED%94%8C%EB%9E%AB%ED%8F%BC))
+
+**녹음 권리·동의 처리 관행 (§5)**
+- [클로바노트 서비스 이용약관](https://terms2.line.me/ClovaNote_Terms?lang=ko) · [네이버 클로바 이용약관](https://clova.ai/terms)
+- [다글로 이용 가이드](https://daglo.ai/guide) · [다글로 개인정보처리방침](https://daglo.ai/privacy)
+- [Otter.ai Terms of Service](https://otter.ai/terms-of-service) · [Otter.ai Privacy & Security](https://otter.ai/privacy-security)
+- [AI Notetaking Tools Under Fire: Lessons from the Otter.ai Class Action Complaint — National Law Review](https://natlawreview.com/article/ai-notetaking-tools-under-fire-lessons-otterai-class-action-complaint)
+- [Otter.ai Recording Privacy Class Action — Open Class Actions](https://openclassactions.com/lawsuits/otter-ai-privacy-wiretap-class-action.php)
+- [Enterprise note-taking apps face legal scrutiny as Otter hit with privacy suit — Computerworld](https://www.computerworld.com/article/4041849/enterprise-note-taking-apps-face-legal-scrutiny-as-otter-hit-with-privacy-suit.html)
+- [티로 Tiro — App Store 제품 설명](https://apps.apple.com/kr/app/id6503079839) · [Tiro Docs](https://docs.tiro.ooo/ko/guide/start/ai-connect)
+- [Lecture Capture (Echo360) — UMass Lowell IT](https://www.uml.edu/it/services/academic-technology/lecture-capture.aspx)
+- [Important message about lecture recording — UCL UCU](https://ucl-ucu.org.uk/2025/09/25/important-message-about-lecture-recording-for-members-who-teach/)
+- [Echo360 guides — University of Warwick](https://warwick.ac.uk/services/digitallearning/support/guides/echo360-guides/ech-01)
+- [Lecture Capture FAQs — University of Aberdeen](https://www.abdn.ac.uk/staffnet/education/principles-of-education/lecture-capture-faqs/)
+- [Lecture Capture Guidance (Panopto, 법적 안내) — University of Southampton](https://elearn.soton.ac.uk/knowledge-base/panopto-legalguidance/) · [Lecture capture tutor agreement](https://elearn.soton.ac.uk/knowledge-base/panopto-tutoragreement)
+- [Student Lecture Recording Guidelines using Otter.AI — TU Dublin](https://www.tudublin.ie/for-students/student-services-and-support/student-wellbeing/disability-support-service/student-supports/assistive-technology/student-lecture-recording-guidelines-using-otterai/)
+- [교육목적을 위한 저작물의 이용 — 고려대 교수학습개발원](https://ctl.korea.ac.kr/front/content/view.do?content_seq=47)
+- [성행하는 강의 녹음, 영리적 거래 행위는 불법 — 고대신문](http://www.kunews.ac.kr/news/articleView.html?idxno=25472)
+- [강의 녹화, 교재 복제는 '불법'…저작권 상식 알아보니 — 농민신문](https://www.nongmin.com/article/20240416500330)
+- [대학 원격수업 및 공개강의 저작권 사례별 가이드라인 — KERIS](https://www.keris.or.kr/main/ad/pblcte/selectPblcteRMInfo.do?mi=1139&pblcteSeq=13389)
 
 **KDT 기준값** — [산정 근거 §7](./kokjip-sizing-evidence.md#6-출처) 참조
