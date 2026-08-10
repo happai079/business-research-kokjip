@@ -7,7 +7,7 @@
 > 두 문서의 역할이 다릅니다. **01-A는 계약을 만드는 사람들**(구매 의사결정 관계)이고, **01-B는 서비스를 둘러싼 사용자 다양성**(포용성·확장 기회·거부 요인)입니다.
 
 근거 문서
-- [Ch04 TAM-SAM-SOM & 세그먼트 맵](../04-tam-sam-som-market-segment-map/case-01-ai-education-edtech.md) — 이하 **[4]**
+- [Ch04 TAM-SAM-SOM & 세그먼트 맵](../04-tam-sam-som-market-segment-map/case-01-kokjip-review-app.md) — 이하 **[4]**
 - [딥 리서치 본문](../04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md) — **[R]**
 - [Ch01 5가지 힘](../01-porters-five-forces/case-01-ai-education-edtech.md) — **[1A]**
 - [Ch03 KSF](../03-ksf/new-entrant-top5-ksf.md) — **[3]**

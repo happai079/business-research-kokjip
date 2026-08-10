@@ -4,7 +4,7 @@
 
 근거 문서
 - [사례 01-A 기본 페르소나](./case-01-personas.md) — 세그먼트에서 도출한 구매·사용 역할
-- [Ch04 TAM-SAM-SOM & 세그먼트 맵](../04-tam-sam-som-market-segment-map/case-01-ai-education-edtech.md) — **[4]**
+- [Ch04 TAM-SAM-SOM & 세그먼트 맵](../04-tam-sam-som-market-segment-map/case-01-kokjip-review-app.md) — **[4]**
 - [딥 리서치 본문](../04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md) — **[R]**
 - [Ch01 5가지 힘](../01-porters-five-forces/case-01-ai-education-edtech.md) — **[1A]**
 

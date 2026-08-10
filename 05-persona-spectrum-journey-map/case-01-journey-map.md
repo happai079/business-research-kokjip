@@ -6,7 +6,7 @@
 - [Ch05 여정지도 방법론](./methodology-journey-map.md) — 단계 도출 4신호 · 레인 6개 · 재사용성 판정
 - [사례 01-B 페르소나 스펙트럼](./case-01-persona-spectrum.md) — 원본 12종
 - [사례 01-A 기본 페르소나](./case-01-personas.md) — 구매 의사결정 관계
-- [Ch04 세그먼트·SOM](../04-tam-sam-som-market-segment-map/case-01-ai-education-edtech.md) — **[4]**
+- [Ch04 세그먼트·SOM](../04-tam-sam-som-market-segment-map/case-01-kokjip-review-app.md) — **[4]**
 
 ---
 
