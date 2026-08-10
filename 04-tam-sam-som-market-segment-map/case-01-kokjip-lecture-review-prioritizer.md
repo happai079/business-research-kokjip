@@ -10,12 +10,12 @@
 - 경쟁 실사·채용 연계 단가 → **[간이 딥 리서치](./deep-research/kokjip-research.md)**
 
 ---
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e9086d6f-abaa-4b42-a804-eb7e2aaaef91" />
-
 
 ## 0. 분석 대상 서비스
 
 창업 교육 워크숍에서 구체화한 아이템 정의를 그대로 승계합니다.
+
+<img width="1536" height="1024" alt="「콕집」 서비스 개요 — 강의 중 녹음·태깅에서 현직자 관점 우선순위 복습까지" src="https://github.com/user-attachments/assets/e9086d6f-abaa-4b42-a804-eb7e2aaaef91" />
 
 | 항목 | 내용 |
 |---|---|
