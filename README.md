@@ -48,7 +48,8 @@ business-research-practice/
 │   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
 ├── deep-research/
 │   ├── methodology.md                            # 딥 리서치 7단계 방법론
-│   └── case-ai-ax-edtech.md                      # AX/DX 교육 산업 리서치 (1~7단계 + SRS)
+│   ├── case-ai-ax-edtech.md                      # AX/DX 교육 산업 리서치 (1~7단계 + SRS)
+│   └── 리서치 원문/                               # 같은 주제의 선행 리서치 (Gemini·GPT) — 부록 A에서 대조
 └── ...          # 챕터별 산출물이 추가되는 대로 정리
 ```
 

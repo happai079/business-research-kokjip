@@ -986,8 +986,8 @@ graph TB
 
 같은 주제·같은 방법론으로 수행된 선행 리서치 2건이 저장소에 있습니다. 결론이 겹치는 부분과 갈리는 부분을 밝힙니다.
 
-- [Gemini 판](../리서치%20원문/AI_AX_EdTech_Research_Report_Gemini.md)
-- [GPT 판](../리서치%20원문/AI_AX_교육_에듀테크_산업_리서치_GPT.md)
+- [Gemini 판](./리서치%20원문/AI_AX_EdTech_Research_Report_Gemini.md)
+- [GPT 판](./리서치%20원문/AI_AX_교육_에듀테크_산업_리서치_GPT.md)
 
 ### 세 리서치가 독립적으로 도달한 같은 결론
 
