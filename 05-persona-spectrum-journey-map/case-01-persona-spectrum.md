@@ -213,37 +213,53 @@ style D fill:#DDDDDD,stroke:#333,stroke-width:2px
 
 ### 6-1. 배치도 — 누가 어느 유형인가
 
+각 칸은 **「그 사람의 머릿속 한 문장」 · 조직과 직무 · 그를 규정하는 한 줄**로 읽습니다.
+
 ```mermaid
-graph TB
-    subgraph CORE["🔵 Core 5 · 표적 세그먼트 S4 내부"]
-        C1["C1 생산기술팀장<br/>― 예산 소유"]
-        C2["C2 HRD 파트장<br/>― 벤더 선정"]
-        C3["C3 DX 팀장<br/>― 보안 심사"]
-        C4["C4 품질검사 담당<br/>― 성패 결정"]
-        C5["C5 AI 챔피언<br/>― 확산 채널"]
+graph LR
+    subgraph CORE["Core 핵심 5 — 주력 타깃"]
+        direction TB
+        C1["C1 「툴은 이미 있다」<br>자동차 부품사 생산기술팀장<br>예산은 쥐었으나 보고할 숫자가 없다"]
+        C2["C2 「제안서가 다 똑같다」<br>금융지주 인재개발원 HRD 파트장<br>예산 동결 상태에서 선정 근거가 필요하다"]
+        C3["C3 「도구는 다 줬는데」<br>유통 대기업 DX추진팀장<br>활용률로 라이선스를 방어하는 보안 게이트"]
+        C4["C4 「우리 양식엔 안 먹힌다」<br>부품사 품질검사 실무자<br>성과의 유일한 원천이자 이탈 지점"]
+        C5["C5 「왜 내가 이걸 하나」<br>부품사 선임 엔지니어 · AI 창구<br>발주를 거치지 않는 유일한 확산 채널"]
     end
 
-    subgraph ADJ["🟢 Adjacent 3 · 같은 문제 · 다른 제도"]
-        A1["A1 공공기관 교육담당<br/>― 조달·감사"]
-        A2["A2 대학 CTL 팀장<br/>― 강제력 없음"]
-        A3["A3 로펌 KM 팀장<br/>― 책임 소재"]
+    subgraph ADJ["Adjacent 확장 3 — 유사 문제 · 다른 맥락"]
+        direction TB
+        A1["A1 「전례가 있는가」<br>준정부기관 인사혁신부 교육담당<br>감사 방어용 증빙이 곧 구매 조건"]
+        A2["A2 「강제할 수 없다」<br>사립대 교수학습개발센터 팀장<br>권한 없이 참여율을 만들어야 한다"]
+        A3["A3 「책임이 개인에게 간다」<br>법무법인 지식관리(KM) 팀장<br>면허·책임 구조가 도입을 막는다"]
     end
 
-    subgraph EXT["🔴 Extreme 2 · 최다 실패"]
-        E1["E1 폐쇄망 3교대<br/>― 접속 불가"]
-        E2["E2 25년차 시니어<br/>― 학습이 곧 체면 위협"]
+    subgraph EXT["Extreme 극단 2 — 제약 상황 · 실패 중심"]
+        direction TB
+        E1["E1 「접속할 방법이 없다」<br>반도체 소재 공장 설비보전 담당<br>폐쇄망·공용단말·3교대로 계측 자체가 불가"]
+        E2["E2 「후배 앞에서 못하는 모습」<br>제조사 품질보증 25년차 실무자<br>도메인 지식 최고 · 학습 실패 최다"]
     end
 
-    subgraph NON["⚪ Non-user 2"]
-        N1["N1 준법감시인<br/>― 못 쓴다 · 거부권"]
-        N2["N2 사내 TF 리더<br/>― 안 쓴다 · 자가공급"]
+    subgraph NON["Non-user 비활성 2 — 진입 장벽"]
+        direction TB
+        N1["N1 「사고 나면 기관 제재」<br>보험사 준법감시실 부장<br>금지형 — C1·C2·C3를 막는 규정 작성자"]
+        N2["N2 「벤더는 우리 공정을 모른다」<br>중견 제조사 사내 AI TF 리더<br>자가공급형 — 무료·자체 제작으로 대체"]
     end
 
-    style CORE fill:#e6f6ff,stroke:#33BBFF,stroke-width:2px
-    style ADJ fill:#e6fff6,stroke:#22CC99,stroke-width:2px
-    style EXT fill:#ffece9,stroke:#FF3322,stroke-width:2px
-    style NON fill:#f2f2f2,stroke:#999,stroke-width:2px
+    CORE --> ADJ
+    CORE --> EXT
+    ADJ --> NON
+
+    classDef core fill:#33BBFF,stroke:#333,stroke-width:2px,color:#111;
+    classDef adj fill:#33FFBB,stroke:#333,stroke-width:2px,color:#111;
+    classDef ext fill:#FF3322,stroke:#333,stroke-width:2px,color:#fff;
+    classDef non fill:#DDDDDD,stroke:#333,stroke-width:2px,color:#111;
+    class C1,C2,C3,C4,C5 core;
+    class A1,A2,A3 adj;
+    class E1,E2 ext;
+    class N1,N2 non;
 ```
+
+**Core 5가 한 조직 프로필(자동차 부품사·1,200명)에 몰려 있는 것이 이 배치도의 약점입니다.** C2·C3만 다른 업종으로 배치했고 나머지 셋은 같은 회사 안의 인물입니다. 구매 의사결정 구조를 보여주기엔 유리하지만 업종·조직문화 다양성은 부족하며, ②단계에서 대표 페르소나를 고를 때 이 편향을 감점 요인으로 다뤄야 합니다([§7 주의](#주의--발산-단계의-알려진-편향)).
 
 ### 6-2. 관계도 — 계약이 성립하고 성과가 도는 한 줄, 그리고 그것을 끊는 지점
 
