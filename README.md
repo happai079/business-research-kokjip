@@ -46,15 +46,22 @@ business-research-practice/
 ├── 03-ksf/
 │   ├── new-entrant-top5-ksf.md                   # 신규 진입자를 위한 Top 5 핵심 성공 요인
 │   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
-├── deep-research/
+├── 04-tam-sam-som-market-segment-map/
+│   ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
+│   ├── case-01-ai-education-edtech.md            # 사례: AX 교육 시장 규모 산정 + 세그먼트 맵
+│   └── deep-research/
+│       └── market-sizing-evidence.md             # 원천 데이터 · 계산 재현 · 민감도 · 미확정 항목
+├── deep-research/                                # 01~03 공통 (세 챕터의 가정을 함께 검증)
 │   ├── methodology.md                            # 딥 리서치 7단계 방법론
 │   ├── case-ai-ax-edtech.md                      # 본문: AX/DX 교육 산업 리서치 1~7단계
 │   ├── segment-map.md                            # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
 │   ├── srs-ax-adoption-platform.md               # 7단계 제품 명세 (SRS)
 │   ├── research-log.md                           # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
-│   └── 리서치 원문/                               # 같은 주제의 선행 리서치 (Gemini·GPT) — 부록 A에서 대조
+│   └── 리서치 원문/                               # 같은 주제의 선행 리서치 (Gemini·GPT)
 └── ...          # 챕터별 산출물이 추가되는 대로 정리
 ```
+
+**딥 리서치는 그 결과를 쓰는 챕터 아래에 둡니다.** 04의 시장 규모 산정 근거는 `04-.../deep-research/`에 있습니다. 루트의 `deep-research/`는 01~03 세 챕터의 가정을 **함께** 검증한 것이라 특정 챕터에 속하지 않아 depth 1에 남겼습니다.
 
 챕터 01의 두 시장을 챕터 02에서도 같은 대상으로 이어 분석했습니다. 01은 산업(외부) 구조를, 02는 기업(내부) 활동을 보므로 두 챕터를 함께 읽어야 "어디서 싸울지"와 "어떻게 싸울지"가 연결됩니다.
 
@@ -65,6 +72,8 @@ business-research-practice/
 | 시장이 빠르게 커진다 | 수요는 커졌으나 **교육 예산 총액은 커지지 않았다** (증액 기업 35.8%) |
 | B2G 매출 의존은 금지 | **현금은 B2G, 자산은 B2B** — 역할을 분리한다 |
 | 기존 경쟁 강도 4/5 (성장에 가려진 강) | **5/5** — AX 영역은 12개 사업자 경쟁에 정부 무료 공급까지 진입 |
+
+챕터 04에서는 앞선 리서치의 수치 해석 하나가 수정됐습니다. **"AI 교육이 2026년 투자 1순위(50.9%)"는 우선순위 응답 비중이지 금액 비중이 아니며**, 금액 기준은 약 25%입니다([근거](./04-tam-sam-som-market-segment-map/deep-research/market-sizing-evidence.md#3-a10ai-교육-금액-비중-25의-유도)).
 
 근거는 [리서치 문서](./deep-research/case-ai-ax-edtech.md)의 [경쟁 실사](./deep-research/case-ai-ax-edtech.md#5-6-h5-검증--빈-땅이-아니었다)와 [6단계 정제](./deep-research/case-ai-ax-edtech.md#6단계--반복-정제)에 있습니다.
 
