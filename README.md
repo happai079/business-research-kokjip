@@ -46,17 +46,19 @@ business-research-practice/
 ├── 03-ksf/
 │   ├── new-entrant-top5-ksf.md                   # 신규 진입자를 위한 Top 5 핵심 성공 요인
 │   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
-└── 04-tam-sam-som-market-segment-map/
-    ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
-    ├── case-01-ai-education-edtech.md            # 사례: AX 교육 시장 규모 산정 + 세그먼트 맵
-    └── deep-research/                            # 심층 리서치 일체
-        ├── methodology.md                        # 딥 리서치 7단계 방법론
-        ├── case-ai-ax-edtech.md                  # 본문: AX/DX 교육 산업 리서치 1~7단계
-        ├── segment-map.md                        # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
-        ├── srs-ax-adoption-platform.md           # 7단계 제품 명세 (SRS)
-        ├── research-log.md                       # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
-        ├── market-sizing-evidence.md             # 04 산정 근거: 원천 데이터 · 계산 재현 · 민감도
-        └── 리서치 원문/                           # 같은 주제의 선행 리서치 (Gemini·GPT)
+├── 04-tam-sam-som-market-segment-map/
+│   ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
+│   ├── case-01-ai-education-edtech.md            # 사례: AX 교육 시장 규모 산정 + 세그먼트 맵
+│   └── deep-research/                            # 심층 리서치 일체
+│       ├── methodology.md                        # 딥 리서치 7단계 방법론
+│       ├── case-ai-ax-edtech.md                  # 본문: AX/DX 교육 산업 리서치 1~7단계
+│       ├── segment-map.md                        # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
+│       ├── srs-ax-adoption-platform.md           # 7단계 제품 명세 (SRS)
+│       ├── research-log.md                       # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
+│       ├── market-sizing-evidence.md             # 04 산정 근거: 원천 데이터 · 계산 재현 · 민감도
+│       └── 리서치 원문/                           # 같은 주제의 선행 리서치 (Gemini·GPT)
+└── 05-persona-spectrum-journey-map/
+    └── case-01-ai-education-edtech.md            # 사례: B2B AX 교육 플랫폼 페르소나 6종 + 구매 의사결정 관계도
 ```
 
 **딥 리서치는 챕터 폴더 아래에 둡니다.** 현재는 04 아래에 모여 있습니다 — 01~03의 가정을 검증한 리서치와 04의 시장 규모 산정 근거가 같은 폴더에 있는데, 전자의 산출물(세그먼트·계정당 단가·미해소 항목)이 그대로 04의 입력이 되기 때문입니다.
