@@ -51,6 +51,7 @@ business-research-practice/
 │   ├── case-ai-ax-edtech.md                      # 본문: AX/DX 교육 산업 리서치 1~7단계
 │   ├── segment-map.md                            # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
 │   ├── srs-ax-adoption-platform.md               # 7단계 제품 명세 (SRS)
+│   ├── research-log.md                           # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
 │   └── 리서치 원문/                               # 같은 주제의 선행 리서치 (Gemini·GPT) — 부록 A에서 대조
 └── ...          # 챕터별 산출물이 추가되는 대로 정리
 ```
