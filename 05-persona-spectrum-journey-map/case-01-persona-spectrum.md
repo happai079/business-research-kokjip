@@ -213,12 +213,12 @@ style D fill:#DDDDDD,stroke:#333,stroke-width:2px
 
 ### 6-1. 배치도 — 누가 어느 유형인가
 
-각 칸은 **「그 사람의 머릿속 한 문장」 · 조직과 직무 · 한 줄 규정**으로 읽습니다. **네 유형을 가로로 나란히 두고 각 유형 안에서 세로로 쌓아** 12종이 한 화면에 들어오게 했습니다 — 유형 간 비교는 좌우로, 유형 안의 목록은 위아래로 읽습니다.
+각 칸은 **「그 사람의 머릿속 한 문장」 · 조직과 직무 · 한 줄 규정**으로 읽습니다. **네 유형을 위아래로 쌓고 유형 안의 인물은 좌우로 나열**했습니다 — 유형 간 비교는 위아래로, 한 유형의 구성원은 한 줄에서 좌우로 훑습니다.
 
 ```mermaid
-graph LR
+graph TB
     subgraph CORE["Core 핵심 5 — 주력 타깃"]
-        direction TB
+        direction LR
         C1["C1 「툴은 이미 있다」<br>자동차 부품사 생산기술팀장<br>예산 소유 · 보고할 숫자 없음"]
         C2["C2 「제안서가 다 똑같다」<br>금융지주 HRD 파트장<br>게이트키퍼 · 예산 동결"]
         C3["C3 「도구는 다 줬는데」<br>유통 대기업 DX추진팀장<br>보안 게이트 · 활용률 압박"]
@@ -227,20 +227,20 @@ graph LR
     end
 
     subgraph ADJ["Adjacent 확장 3 — 다른 맥락"]
-        direction TB
+        direction LR
         A1["A1 「전례가 있는가」<br>준정부기관 교육담당<br>조달·감사 제약"]
         A2["A2 「강제할 수 없다」<br>사립대 CTL 팀장<br>권한 없는 설득"]
         A3["A3 「책임이 개인에게 간다」<br>법무법인 KM 팀장<br>면허·책임 구조"]
     end
 
     subgraph EXT["Extreme 극단 2 — 최다 실패"]
-        direction TB
+        direction LR
         E1["E1 「접속할 방법이 없다」<br>반도체 공장 설비보전<br>폐쇄망 · 계측 불가"]
         E2["E2 「후배 앞에서 못하는 모습」<br>제조사 품질보증 25년차<br>도메인 최고 · 학습 최다 실패"]
     end
 
     subgraph NON["Non-user 비활성 2 — 진입 장벽"]
-        direction TB
+        direction LR
         N1["N1 「사고 나면 기관 제재」<br>보험사 준법감시실 부장<br>금지형 — 거부권 보유"]
         N2["N2 「벤더는 우리 공정을 모른다」<br>중견 제조사 AI TF 리더<br>자가공급형 — 무료로 대체"]
     end
