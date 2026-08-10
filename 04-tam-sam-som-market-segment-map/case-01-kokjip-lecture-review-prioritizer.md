@@ -10,6 +10,8 @@
 - 경쟁 실사·채용 연계 단가 → **[간이 딥 리서치](./deep-research/kokjip-research.md)**
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e9086d6f-abaa-4b42-a804-eb7e2aaaef91" />
+
 
 ## 0. 분석 대상 서비스
 
