@@ -206,7 +206,7 @@ graph TB
 
 | 방향 | 내용 |
 |---|---|
-| **입력** | [기본 페르소나](./case-01-personas.md)(주인공 선정) · [페르소나 스펙트럼](./case-01-persona-spectrum.md)(극단 사용자의 여정은 다르게 끊긴다) · Ch01 대체재(접점 레인의 대안) · [Ch04 세그먼트](../04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md)(주인공이 속한 세그먼트) |
+| **입력** | [기본 페르소나](./case-01-kokjip-lecture-review-prioritizer-personas.md)(주인공 선정) · [페르소나 스펙트럼](./case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md)(극단 사용자의 여정은 다르게 끊긴다) · Ch01 대체재(접점 레인의 대안) · [Ch04 세그먼트](../04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md)(주인공이 속한 세그먼트) |
 | **출력** | Ch06 기회점수(개입 후보의 우선순위) · Ch07 JTBD(단계별 과업 진술문) |
 
 ---

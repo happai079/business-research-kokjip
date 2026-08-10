@@ -6,8 +6,8 @@
 
 근거 문서
 - [Ch05 여정지도 방법론](./methodology-journey-map.md) — 단계 도출 4신호 · 레인 6개 · 재사용성 판정
-- [사례 01-B 페르소나 스펙트럼](./case-01-persona-spectrum.md) — 원본 12종
-- [사례 01-A 기본 페르소나](./case-01-personas.md) — 사용·지불·확산 관계
+- [사례 01-B 페르소나 스펙트럼](./case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md) — 원본 12종
+- [사례 01-A 기본 페르소나](./case-01-kokjip-lecture-review-prioritizer-personas.md) — 사용·지불·확산 관계
 - [Ch04 세그먼트·SOM](../04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md) — **[4]**
 - [간이 딥 리서치](../04-tam-sam-som-market-segment-map/deep-research/kokjip-research.md) — **[R]**
 
@@ -39,7 +39,7 @@
 | **서민재** (A3) · 전환 준비 직장인 | 재직 중 직무 전환 준비(33세) | Adjacent 분기 — 녹화 강의 시청 |
 | **배소현** (N2) · 무료 조합 사용자 | 클로바노트+노션+ChatGPT를 이미 쓰는 수강생 | Non-user 분기 — 안 쓴다 |
 
-> 상세 카드(문제·목표·감정·대체 솔루션 전문)는 [사례 01-B](./case-01-persona-spectrum.md)에 있습니다. **모든 인물은 가상이며 실제 인물·기업과 무관합니다.**
+> 상세 카드(문제·목표·감정·대체 솔루션 전문)는 [사례 01-B](./case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md)에 있습니다. **모든 인물은 가상이며 실제 인물·기업과 무관합니다.**
 
 **추정 표기** — 🟢 실측 / 🟡 유도 / 🔴 순수 가설
 

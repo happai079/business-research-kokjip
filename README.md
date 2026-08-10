@@ -47,17 +47,17 @@ business-research-practice/
 │   ├── new-entrant-top5-ksf.md                   # 신규 진입자를 위한 Top 5 핵심 성공 요인
 │   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
 ├── 04-tam-sam-som-market-segment-map/
-│   ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
-│   ├── case-01-kokjip-lecture-review-prioritizer.md  # 사례: 「콕집」 시장 규모 산정 + 세그먼트 맵
-│   └── deep-research/                                # 산정 근거 · 간이 리서치
-│       ├── methodology.md                        # 딥 리서치 7단계 방법론
-│       ├── kokjip-sizing-evidence.md             # 산정 근거: 원천 데이터 · 계산 재현 · 민감도
-│       └── kokjip-research.md                    # 간이 딥 리서치: 경쟁 실사 · 채용 연계 단가
+│   ├── methodology.md                                                 # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
+│   ├── case-01-kokjip-lecture-review-prioritizer.md                   # 사례: 「콕집」 시장 규모 산정 + 세그먼트 맵
+│   └── deep-research/                                                 # 산정 근거 · 간이 리서치
+│       ├── methodology.md                                             # 딥 리서치 7단계 방법론
+│       ├── kokjip-sizing-evidence.md                                  # 산정 근거: 원천 데이터 · 계산 재현 · 민감도
+│       └── kokjip-research.md                                         # 간이 딥 리서치: 경쟁 실사 · 채용 연계 단가
 └── 05-persona-spectrum-journey-map/
-    ├── methodology-journey-map.md                # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
-    ├── case-01-personas.md                       # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
-    ├── case-01-persona-spectrum.md               # 01-B 페르소나 스펙트럼 ①단계: 원본 12종
-    └── case-01-journey-map.md                    # 01-C 유형별 여정지도 + 지불자(기관) 여정
+    ├── methodology-journey-map.md                                     # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
+    ├── case-01-kokjip-lecture-review-prioritizer-personas.md          # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
+    ├── case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md  # 01-B 페르소나 스펙트럼 ①단계: 원본 12종
+    └── case-01-kokjip-lecture-review-prioritizer-journey-map.md       # 01-C 유형별 여정지도 + 지불자(기관) 여정
 ```
 
 **딥 리서치는 챕터 폴더 아래에 둡니다.** 04의 산정 근거와 간이 리서치가 `04-.../deep-research/`에 있습니다.

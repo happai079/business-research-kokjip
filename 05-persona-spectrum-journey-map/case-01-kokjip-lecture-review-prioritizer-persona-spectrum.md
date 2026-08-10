@@ -5,7 +5,7 @@
 작성 시점: 2026년 8월
 
 근거 문서
-- [사례 01-A 기본 페르소나](./case-01-personas.md) — 세그먼트에서 도출한 사용·지불·영향 역할
+- [사례 01-A 기본 페르소나](./case-01-kokjip-lecture-review-prioritizer-personas.md) — 세그먼트에서 도출한 사용·지불·영향 역할
 - [Ch04 TAM-SAM-SOM & 세그먼트 맵](../04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md) — **[4]**
 - [간이 딥 리서치 — 경쟁 실사·채용 단가](../04-tam-sam-som-market-segment-map/deep-research/kokjip-research.md) — **[R]**
 - [산정 근거 데이터](../04-tam-sam-som-market-segment-map/deep-research/kokjip-sizing-evidence.md) — **[E]**
