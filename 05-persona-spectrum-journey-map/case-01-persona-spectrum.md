@@ -216,7 +216,7 @@ style D fill:#DDDDDD,stroke:#333,stroke-width:2px
 각 칸은 **「그 사람의 머릿속 한 문장」 · 조직과 직무 · 그를 규정하는 한 줄**로 읽습니다.
 
 ```mermaid
-graph LR
+graph TB
     subgraph CORE["Core 핵심 5 — 주력 타깃"]
         direction TB
         C1["C1 「툴은 이미 있다」<br>자동차 부품사 생산기술팀장<br>예산은 쥐었으나 보고할 숫자가 없다"]
