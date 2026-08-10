@@ -48,14 +48,16 @@ business-research-practice/
 │   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
 ├── 04-tam-sam-som-market-segment-map/
 │   ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
-│   ├── case-01-ai-education-edtech.md            # 사례: AX 교육 시장 규모 산정 + 세그먼트 맵
+│   ├── case-02-kokjip-review-app.md              # ★ 주 사례: 「콕집」 복습 우선순위 앱
+│   ├── case-01-ai-education-edtech.md            # 참고: B2B AX 교육 플랫폼 (이전 서비스 정의)
 │   └── deep-research/                            # 심층 리서치 일체
 │       ├── methodology.md                        # 딥 리서치 7단계 방법론
 │       ├── case-ai-ax-edtech.md                  # 본문: AX/DX 교육 산업 리서치 1~7단계
 │       ├── segment-map.md                        # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
 │       ├── srs-ax-adoption-platform.md           # 7단계 제품 명세 (SRS)
 │       ├── research-log.md                       # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
-│       ├── market-sizing-evidence.md             # 04 산정 근거: 원천 데이터 · 계산 재현 · 민감도
+│       ├── kokjip-sizing-evidence.md            # ★ 콕집 산정 근거: 원천 데이터 · 계산 재현 · 민감도
+│       ├── market-sizing-evidence.md             # 참고: B2B AX 플랫폼 산정 근거
 │       └── 리서치 원문/                           # 같은 주제의 선행 리서치 (Gemini·GPT)
 └── 05-persona-spectrum-journey-map/
     ├── methodology-journey-map.md                # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
@@ -76,7 +78,18 @@ business-research-practice/
 | B2G 매출 의존은 금지 | **현금은 B2G, 자산은 B2B** — 역할을 분리한다 |
 | 기존 경쟁 강도 4/5 (성장에 가려진 강) | **5/5** — AX 영역은 12개 사업자 경쟁에 정부 무료 공급까지 진입 |
 
-챕터 04에서는 앞선 리서치의 수치 해석 하나가 수정됐습니다. **"AI 교육이 2026년 투자 1순위(50.9%)"는 우선순위 응답 비중이지 금액 비중이 아니며**, 금액 기준은 약 25%입니다([근거](./04-tam-sam-som-market-segment-map/deep-research/market-sizing-evidence.md#3-a10ai-교육-금액-비중-25의-유도)).
+챕터 04의 사례 01에서는 앞선 리서치의 수치 해석 하나가 수정됐습니다. **"AI 교육이 2026년 투자 1순위(50.9%)"는 우선순위 응답 비중이지 금액 비중이 아니며**, 금액 기준은 약 25%입니다([근거](./04-tam-sam-som-market-segment-map/deep-research/market-sizing-evidence.md#3-a10ai-교육-금액-비중-25의-유도)).
+
+### 분석 대상 서비스가 바뀌었습니다
+
+챕터 04부터 분석 대상을 **B2B AX 교육 플랫폼 → 「콕집」(국비 교육 수강생용 복습 우선순위 앱)** 으로 교체했습니다. 챕터 01~03은 **산업(에듀테크·AI 교육)** 을 분석한 것이라 그대로 유효하고, 04부터는 그 산업 안의 **다른 층위(공급자 → 학습자 측 도구)** 를 봅니다.
+
+| | 사례 01 (B2B AX 플랫폼) | **사례 02 (콕집)** |
+|---|---|---|
+| 고객 | 기업 HRD·현업 부서장 | **학습자 개인 + 국비 교육기관** |
+| 구매 단위 | 계정당 연 8,000만 원 | **월 5,000원 구독 / 기관 라이선스** |
+| SAM · SOM | 680억 · 8억 | **200억 · 9.5억** |
+| 산정 괴리의 원인 | 우선순위 응답을 금액 비중으로 오독 | **개인 지불과 기관 지불이 다른 시장** |
 
 근거는 [리서치 문서](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md)의 [경쟁 실사](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md#5-6-h5-검증--빈-땅이-아니었다)와 [6단계 정제](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md#6단계--반복-정제)에 있습니다.
 

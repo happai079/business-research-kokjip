@@ -144,5 +144,7 @@ SOM = (획득 가능 계정 수) × (계정당 연 단가) × (기간 내 달성
 
 ## 적용 사례
 
-- [사례 01 — AI AX/DX 교육 시장](./case-01-ai-education-edtech.md)
-- 산정에 쓴 원천 데이터와 계산 감사: [deep-research/market-sizing-evidence.md](./deep-research/market-sizing-evidence.md)
+- **[사례 02 — 「콕집」 복습 우선순위 앱](./case-02-kokjip-review-app.md)** ← **주 사례** · 근거: [deep-research/kokjip-sizing-evidence.md](./deep-research/kokjip-sizing-evidence.md)
+- [사례 01 — B2B AX 교육 플랫폼](./case-01-ai-education-edtech.md) (이전 서비스 정의 기준, 참고용) · 근거: [deep-research/market-sizing-evidence.md](./deep-research/market-sizing-evidence.md)
+
+**두 사례를 함께 읽으면 방법론의 요점이 드러납니다.** 같은 3층 정의와 같은 3방식 병치를 적용했는데, 사례 01은 괴리의 원인이 **"우선순위 응답을 금액 비중으로 오독한 것"** 이었고 사례 02는 **"개인 지불과 기관 지불이 서로 다른 시장이었던 것"** 이었습니다. **방식을 여러 개 쓰는 목적은 평균을 내는 게 아니라 괴리에서 오독을 잡아내는 것입니다.**
