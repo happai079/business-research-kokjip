@@ -2,7 +2,7 @@
 
 리서치 수행 시점: 2026년 8월 · 적용 방법론: [딥 리서치 7단계](./methodology.md)
 
-선행 문서 — [Ch01 5가지 힘](../01-porters-five-forces/case-01-ai-education-edtech.md)(압박 23/25, 이하 **[1A]**) · [Ch02 가치사슬](../02-value-chain/case-01-ai-education-edtech.md)(**[2A]**) · [Ch03 KSF](../03-ksf/new-entrant-top5-ksf.md)(**[3]**)
+선행 문서 — [Ch01 5가지 힘](../../01-porters-five-forces/case-01-ai-education-edtech.md)(압박 23/25, 이하 **[1A]**) · [Ch02 가치사슬](../../02-value-chain/case-01-ai-education-edtech.md)(**[2A]**) · [Ch03 KSF](../../03-ksf/new-entrant-top5-ksf.md)(**[3]**)
 
 분리 문서 — **[세그먼트 지도](./segment-map.md)**(정제 결과 시각화 3장) · **[SRS](./srs-ax-adoption-platform.md)**(7단계 제품 명세) · **[리서치 로그](./research-log.md)**(미해소 항목 · 선행 리서치 대조 · 다음 회차 설계)
 

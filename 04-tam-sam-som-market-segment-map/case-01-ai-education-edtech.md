@@ -6,7 +6,7 @@
 - [Ch01 5가지 힘](../01-porters-five-forces/case-01-ai-education-edtech.md) — 이하 **[1A]**
 - [Ch02 가치사슬](../02-value-chain/case-01-ai-education-edtech.md) — **[2A]**
 - [Ch03 KSF](../03-ksf/new-entrant-top5-ksf.md) — **[3]**
-- [딥 리서치 본문](../deep-research/case-ai-ax-edtech.md) — **[R]**
+- [딥 리서치 본문](./deep-research/case-ai-ax-edtech.md) — **[R]**
 
 원천 데이터·계산 감사·미확정 항목 → **[deep-research/market-sizing-evidence.md](./deep-research/market-sizing-evidence.md)**
 
@@ -265,7 +265,7 @@ flowchart TD
 | 5 | 이러닝 수요 중 기업 비중 50% | 가정 | 방식 A에만 영향(교차 검증용이라 결론에는 무영향) |
 | 6 | 1인당 연 교육비 20만 원 | 응답 구간의 중앙값 | 방식 B에 선형 영향 |
 
-**항목 1과 3이 이 챕터의 핵심 미확정 값입니다.** 둘 다 [딥 리서치 로그](../deep-research/research-log.md#4-미해소-항목)가 미해소로 지목했던 것이며, 이번 산정에서 **범위까지는 좁혔으나 확정하지 못했습니다.**
+**항목 1과 3이 이 챕터의 핵심 미확정 값입니다.** 둘 다 [딥 리서치 로그](./deep-research/research-log.md#4-미해소-항목)가 미해소로 지목했던 것이며, 이번 산정에서 **범위까지는 좁혔으나 확정하지 못했습니다.**
 
 상세 감사표와 계산 재현 → [deep-research/market-sizing-evidence.md](./deep-research/market-sizing-evidence.md)
 

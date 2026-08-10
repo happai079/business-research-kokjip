@@ -2,7 +2,7 @@
 
 버전 0.1 (MVP 기준) · 대상 릴리스: PoC 통과 후 12주 내 MVP
 
-근거 문서 — **[딥 리서치 본문](./case-ai-ax-edtech.md)**(문제 정의·경쟁 포지셔닝·PoC 성공 기준은 그쪽 7단계에 있음) · [Ch02 가치사슬](../02-value-chain/case-01-ai-education-edtech.md)(**[2A]**) · [Ch03 KSF](../03-ksf/new-entrant-top5-ksf.md)(**[3]**) · [세그먼트 지도](./segment-map.md)
+근거 문서 — **[딥 리서치 본문](./case-ai-ax-edtech.md)**(문제 정의·경쟁 포지셔닝·PoC 성공 기준은 그쪽 7단계에 있음) · [Ch02 가치사슬](../../02-value-chain/case-01-ai-education-edtech.md)(**[2A]**) · [Ch03 KSF](../../03-ksf/new-entrant-top5-ksf.md)(**[3]**) · [세그먼트 지도](./segment-map.md)
 
 이 문서는 **제품 명세만** 담습니다. "왜 이 제품인가"는 본문 7단계에, "어느 세그먼트인가"는 세그먼트 지도에 있습니다.
 

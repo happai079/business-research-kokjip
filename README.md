@@ -26,7 +26,7 @@
 
 앞선 챕터의 산출물이 뒤 챕터의 입력이 됩니다. 예를 들어 05의 페르소나는 07의 JTBD 진술문으로, 04의 세그먼트와 07의 과업은 06의 기회점수 계산으로 이어집니다.
 
-프레임워크가 **분석의 틀**이라면 [딥 리서치](./deep-research/methodology.md)는 **틀을 채울 사실을 찾아오는 절차**입니다. 각 챕터가 남긴 "검증이 필요한 가정"을 실제 데이터로 바꾸고, 그 결과를 다음 챕터의 입력으로 되돌립니다.
+프레임워크가 **분석의 틀**이라면 [딥 리서치](./04-tam-sam-som-market-segment-map/deep-research/methodology.md)는 **틀을 채울 사실을 찾아오는 절차**입니다. 각 챕터가 남긴 "검증이 필요한 가정"을 실제 데이터로 바꾸고, 그 결과를 다음 챕터의 입력으로 되돌립니다.
 
 ## 구조
 
@@ -46,26 +46,24 @@ business-research-practice/
 ├── 03-ksf/
 │   ├── new-entrant-top5-ksf.md                   # 신규 진입자를 위한 Top 5 핵심 성공 요인
 │   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
-├── 04-tam-sam-som-market-segment-map/
-│   ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
-│   ├── case-01-ai-education-edtech.md            # 사례: AX 교육 시장 규모 산정 + 세그먼트 맵
-│   └── deep-research/
-│       └── market-sizing-evidence.md             # 원천 데이터 · 계산 재현 · 민감도 · 미확정 항목
-├── deep-research/                                # 01~03 공통 (세 챕터의 가정을 함께 검증)
-│   ├── methodology.md                            # 딥 리서치 7단계 방법론
-│   ├── case-ai-ax-edtech.md                      # 본문: AX/DX 교육 산업 리서치 1~7단계
-│   ├── segment-map.md                            # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
-│   ├── srs-ax-adoption-platform.md               # 7단계 제품 명세 (SRS)
-│   ├── research-log.md                           # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
-│   └── 리서치 원문/                               # 같은 주제의 선행 리서치 (Gemini·GPT)
-└── ...          # 챕터별 산출물이 추가되는 대로 정리
+└── 04-tam-sam-som-market-segment-map/
+    ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
+    ├── case-01-ai-education-edtech.md            # 사례: AX 교육 시장 규모 산정 + 세그먼트 맵
+    └── deep-research/                            # 심층 리서치 일체
+        ├── methodology.md                        # 딥 리서치 7단계 방법론
+        ├── case-ai-ax-edtech.md                  # 본문: AX/DX 교육 산업 리서치 1~7단계
+        ├── segment-map.md                        # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
+        ├── srs-ax-adoption-platform.md           # 7단계 제품 명세 (SRS)
+        ├── research-log.md                       # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
+        ├── market-sizing-evidence.md             # 04 산정 근거: 원천 데이터 · 계산 재현 · 민감도
+        └── 리서치 원문/                           # 같은 주제의 선행 리서치 (Gemini·GPT)
 ```
 
-**딥 리서치는 그 결과를 쓰는 챕터 아래에 둡니다.** 04의 시장 규모 산정 근거는 `04-.../deep-research/`에 있습니다. 루트의 `deep-research/`는 01~03 세 챕터의 가정을 **함께** 검증한 것이라 특정 챕터에 속하지 않아 depth 1에 남겼습니다.
+**딥 리서치는 챕터 폴더 아래에 둡니다.** 현재는 04 아래에 모여 있습니다 — 01~03의 가정을 검증한 리서치와 04의 시장 규모 산정 근거가 같은 폴더에 있는데, 전자의 산출물(세그먼트·계정당 단가·미해소 항목)이 그대로 04의 입력이 되기 때문입니다.
 
 챕터 01의 두 시장을 챕터 02에서도 같은 대상으로 이어 분석했습니다. 01은 산업(외부) 구조를, 02는 기업(내부) 활동을 보므로 두 챕터를 함께 읽어야 "어디서 싸울지"와 "어떻게 싸울지"가 연결됩니다.
 
-`deep-research/`는 챕터 01~03이 세운 가정을 공개 데이터로 검증한 결과입니다. 검증 과정에서 챕터 01의 판단 세 가지가 수정됐습니다.
+딥 리서치는 챕터 01~03이 세운 가정을 공개 데이터로 검증한 결과이기도 합니다. 검증 과정에서 챕터 01의 판단 세 가지가 수정됐습니다.
 
 | 챕터 01의 판단 | 리서치 후 |
 |---|---|
@@ -75,7 +73,7 @@ business-research-practice/
 
 챕터 04에서는 앞선 리서치의 수치 해석 하나가 수정됐습니다. **"AI 교육이 2026년 투자 1순위(50.9%)"는 우선순위 응답 비중이지 금액 비중이 아니며**, 금액 기준은 약 25%입니다([근거](./04-tam-sam-som-market-segment-map/deep-research/market-sizing-evidence.md#3-a10ai-교육-금액-비중-25의-유도)).
 
-근거는 [리서치 문서](./deep-research/case-ai-ax-edtech.md)의 [경쟁 실사](./deep-research/case-ai-ax-edtech.md#5-6-h5-검증--빈-땅이-아니었다)와 [6단계 정제](./deep-research/case-ai-ax-edtech.md#6단계--반복-정제)에 있습니다.
+근거는 [리서치 문서](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md)의 [경쟁 실사](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md#5-6-h5-검증--빈-땅이-아니었다)와 [6단계 정제](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md#6단계--반복-정제)에 있습니다.
 
 ## 참고
 
