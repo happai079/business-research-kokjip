@@ -58,6 +58,7 @@ business-research-practice/
 │       ├── market-sizing-evidence.md             # 04 산정 근거: 원천 데이터 · 계산 재현 · 민감도
 │       └── 리서치 원문/                           # 같은 주제의 선행 리서치 (Gemini·GPT)
 └── 05-persona-spectrum-journey-map/
+    ├── methodology-journey-map.md                # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
     ├── case-01-personas.md                       # 01-A 기본 페르소나 6종 (세그먼트 기반) + 구매 의사결정 관계도
     └── case-01-persona-spectrum.md               # 01-B 페르소나 스펙트럼 ①단계: 원본 12종 (Core 5·Adjacent 3·Extreme 2·Non-user 2)
 ```
