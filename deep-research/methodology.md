@@ -109,5 +109,4 @@ Ch03 KSF       ─┘                                        ↓
 
 ## 적용 사례
 
-- [AI AX/DX 교육 중심 에듀테크 산업 — 1~6단계](./case-ai-ax-edtech.md)
-- [7단계 솔루션 및 SRS](./solution-ax-adoption-platform.md)
+- [AI AX/DX 교육 중심 에듀테크 산업](./case-ai-ax-edtech.md) — 1단계 탐색부터 7단계 SRS까지 한 편
