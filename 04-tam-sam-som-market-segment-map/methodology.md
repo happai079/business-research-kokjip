@@ -137,14 +137,14 @@ SOM = (획득 가능 계정 수) × (계정당 연 단가) × (기간 내 달성
 
 | 방향 | 내용 |
 |---|---|
-| **입력** | Ch01 대체재·구매자 교섭력(TAM 경계와 지불 능력) · Ch02 가치사슬(제품 형태 필터) · Ch03 KSF(세그먼트 협소화 조건) · [딥 리서치](./deep-research/case-ai-ax-edtech.md)의 실측 수치 |
+| **입력** | Ch01 대체재·구매자 교섭력(TAM 경계와 지불 능력) · Ch02 가치사슬(제품 형태 필터) · Ch03 KSF(세그먼트 협소화 조건) · [딥 리서치](./deep-research/kokjip-research.md)의 실측 수치 |
 | **출력** | Ch05 페르소나(어느 세그먼트의 누구인가) · Ch06 기회점수(세그먼트별 시장 크기 항) · Ch07 JTBD(과업의 대상 집단) |
 
 ---
 
 ## 적용 사례
 
-- [사례 01 — 「콕집」 복습 우선순위 앱](./case-01-kokjip-review-app.md)
+- [사례 01 — 「콕집」 복습 우선순위 앱](./case-01-kokjip-lecture-review-prioritizer.md)
 - 산정에 쓴 원천 데이터와 계산 감사: [deep-research/kokjip-sizing-evidence.md](./deep-research/kokjip-sizing-evidence.md)
 
 **이 사례에서 방법론의 요점이 드러납니다.** 세 방식으로 재니 112배가 벌어졌고, 원인은 오차가 아니라 **개인 지불과 기관 지불이 서로 다른 시장이었던 것**이었습니다. **방식을 여러 개 쓰는 목적은 평균을 내는 게 아니라 괴리에서 오독을 잡아내는 것입니다.**

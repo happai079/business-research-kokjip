@@ -48,39 +48,25 @@ business-research-practice/
 │   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
 ├── 04-tam-sam-som-market-segment-map/
 │   ├── methodology.md                            # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
-│   ├── case-01-kokjip-review-app.md              # 사례: 「콕집」 복습 우선순위 앱
-│   └── deep-research/                            # 심층 리서치 일체
+│   ├── case-01-kokjip-lecture-review-prioritizer.md  # 사례: 「콕집」 시장 규모 산정 + 세그먼트 맵
+│   └── deep-research/                                # 산정 근거 · 간이 리서치
 │       ├── methodology.md                        # 딥 리서치 7단계 방법론
-│       ├── case-ai-ax-edtech.md                  # 본문: AX/DX 교육 산업 리서치 1~7단계
-│       ├── segment-map.md                        # 세그먼트 지도 (2×2 좌표 · 탈락 깔때기 · 경쟁 밀도)
-│       ├── srs-ax-adoption-platform.md           # 7단계 제품 명세 (SRS)
-│       ├── research-log.md                       # 미해소 항목 · 선행 리서치 대조 · 다음 회차 설계
-│       ├── kokjip-sizing-evidence.md             # 콕집 산정 근거: 원천 데이터 · 계산 재현 · 민감도
-│       └── 리서치 원문/                           # 같은 주제의 선행 리서치 (Gemini·GPT)
+│       ├── kokjip-sizing-evidence.md             # 산정 근거: 원천 데이터 · 계산 재현 · 민감도
+│       └── kokjip-research.md                    # 간이 딥 리서치: 경쟁 실사 · 채용 연계 단가
 └── 05-persona-spectrum-journey-map/
     ├── methodology-journey-map.md                # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
-    ├── case-01-personas.md                       # 01-A 기본 페르소나 6종 (세그먼트 기반) + 구매 의사결정 관계도
-    ├── case-01-persona-spectrum.md               # 01-B 페르소나 스펙트럼 ①단계: 원본 12종 (Core 5·Adjacent 3·Extreme 2·Non-user 2)
-    └── case-01-journey-map.md                    # 01-C 스펙트럼 4유형별 여정지도 (유형마다 단계가 다르게 도출됨)
+    ├── case-01-personas.md                       # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
+    ├── case-01-persona-spectrum.md               # 01-B 페르소나 스펙트럼 ①단계: 원본 12종
+    └── case-01-journey-map.md                    # 01-C 유형별 여정지도 + 지불자(기관) 여정
 ```
 
-**딥 리서치는 챕터 폴더 아래에 둡니다.** 현재는 04 아래에 모여 있습니다 — 01~03의 가정을 검증한 리서치와 04의 시장 규모 산정 근거가 같은 폴더에 있는데, 전자의 산출물(세그먼트·계정당 단가·미해소 항목)이 그대로 04의 입력이 되기 때문입니다.
+**딥 리서치는 챕터 폴더 아래에 둡니다.** 04의 산정 근거와 간이 리서치가 `04-.../deep-research/`에 있습니다.
 
 챕터 01의 두 시장을 챕터 02에서도 같은 대상으로 이어 분석했습니다. 01은 산업(외부) 구조를, 02는 기업(내부) 활동을 보므로 두 챕터를 함께 읽어야 "어디서 싸울지"와 "어떻게 싸울지"가 연결됩니다.
 
-딥 리서치는 챕터 01~03이 세운 가정을 공개 데이터로 검증한 결과이기도 합니다. 검증 과정에서 챕터 01의 판단 세 가지가 수정됐습니다.
-
-| 챕터 01의 판단 | 리서치 후 |
-|---|---|
-| 시장이 빠르게 커진다 | 수요는 커졌으나 **교육 예산 총액은 커지지 않았다** (증액 기업 35.8%) |
-| B2G 매출 의존은 금지 | **현금은 B2G, 자산은 B2B** — 역할을 분리한다 |
-| 기존 경쟁 강도 4/5 (성장에 가려진 강) | **5/5** — AX 영역은 12개 사업자 경쟁에 정부 무료 공급까지 진입 |
-
-근거는 [리서치 문서](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md)의 [경쟁 실사](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md#5-6-h5-검증--빈-땅이-아니었다)와 [6단계 정제](./04-tam-sam-som-market-segment-map/deep-research/case-ai-ax-edtech.md#6단계--반복-정제)에 있습니다.
-
 ## 분석 대상 서비스
 
-챕터 04부터는 **「콕집」** 을 분석 대상으로 삼습니다 — 국비 교육 수강생을 위한, **현직자 인사이트로 복습 우선순위를 정해주는 앱**입니다. 챕터 01~03이 분석한 **산업(에듀테크·AI 교육)** 안에서 **학습자 측에 서는 도구**이며, 산정 결과는 TAM 110~160억 · SAM 200억 · SOM 9.5억입니다 → [Ch04 사례](./04-tam-sam-som-market-segment-map/case-01-kokjip-review-app.md)
+챕터 04부터는 **「콕집」** 을 분석 대상으로 삼습니다 — 국비 교육 수강생을 위한, **현직자 인사이트로 복습 우선순위를 정해주는 앱**입니다. 챕터 01~03이 분석한 **산업(에듀테크·AI 교육)** 안에서 **학습자 측에 서는 도구**이며, 산정 결과는 TAM 110~160억 · SAM 200억 · SOM 9.5억입니다 → [Ch04 사례](./04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md)
 
 ## 참고
 
