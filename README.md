@@ -62,7 +62,8 @@ business-research-practice/
     ├── methodology.md                                                 # 방법론: 기회점수 (OS→AOS 수식 교정 + 사분면 Matrix + 산출 5단계)
     ├── methodology-dos.md                                             # 방법론(확장): DOS 시장 가중형 기회점수 (Market Relevance 산정 + AOS×DOS 처분)
     ├── case-01-kokjip-lecture-review-prioritizer-pain-list.md         # ①단계: CJM에서 추린 대표 Pain 15건 + Goal + 순위/게이트 트랙
-    └── case-01-kokjip-lecture-review-prioritizer-aos-matrix.md        # ②~⑤단계: Importance·Satisfaction 채점 + AOS 산출 + 중앙값 기준 Matrix
+    ├── case-01-kokjip-lecture-review-prioritizer-aos-matrix.md        # ②~⑤단계: Importance·Satisfaction 채점 + AOS 산출 + 중앙값 기준 Matrix
+    └── case-01-kokjip-lecture-review-prioritizer-dos.md               # ⑥단계: DOS 산출 — SAM 기준(주) · SOM 기준(대조) 두 버전
 ```
 
 **딥 리서치는 챕터 폴더 아래에 둡니다.** 04의 산정 근거와 간이 리서치가 `04-.../deep-research/`에 있습니다.
