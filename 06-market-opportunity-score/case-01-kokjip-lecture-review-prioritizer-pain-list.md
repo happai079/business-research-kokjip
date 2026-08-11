@@ -21,11 +21,11 @@
 | **① Pain 리스트 정리** | **본 문서** | **대표 Pain 15건 + Goal + 트랙 분리** |
 | ②~⑤ Importance · Satisfaction · AOS · Matrix | 완료 | [사례 01-②③④⑤ AOS Matrix](./case-01-kokjip-lecture-review-prioritizer-aos-matrix.md) |
 
-[CJM]의 Pain Point **22건**에서 **페르소나 5명 × 3건 = 15건**을 대표로 추립니다.
+[CJM]의 Pain Point **25건**(PP-1~8 · PP-K1~K8 · PP-A1~A3 · PP-E1~E3 · PP-N1~N3)에서 **페르소나 5명 × 3건 = 15건**을 대표로 추립니다.
 
 ---
 
-## 1. 선별 기준 — 22건을 15건으로 줄인 방법
+## 1. 선별 기준 — 25건을 15건으로 줄인 방법
 
 Adjacent·Extreme·Non-user는 [CJM]에 이미 정확히 3건씩 있어 선별이 필요 없었습니다. **실제 선별 작업은 Core(8건 → 3건)와 지불자(8건 → 3건)에서 일어났고**, 네 가지 기준을 순서대로 적용했습니다.
 
