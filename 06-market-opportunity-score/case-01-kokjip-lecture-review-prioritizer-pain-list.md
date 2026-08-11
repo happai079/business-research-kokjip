@@ -19,10 +19,7 @@
 | 단계 | 상태 | 산출물 |
 |---|---|---|
 | **① Pain 리스트 정리** | **본 문서** | **대표 Pain 15건 + Goal + 트랙 분리** |
-| ② Importance 평가 | 미착수 | Importance Table |
-| ③ Satisfaction 평가 | 미착수 | Satisfaction Table |
-| ④ AOS 계산 | 미착수 | AOS Table |
-| ⑤ Matrix 시각화 | 미착수 | AOS Matrix |
+| ②~⑤ Importance · Satisfaction · AOS · Matrix | 완료 | [사례 01-②③④⑤ AOS Matrix](./case-01-kokjip-lecture-review-prioritizer-aos-matrix.md) |
 
 [CJM]의 Pain Point **22건**에서 **페르소나 5명 × 3건 = 15건**을 대표로 추립니다.
 
