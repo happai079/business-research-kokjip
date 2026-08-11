@@ -53,11 +53,13 @@ business-research-practice/
 │       ├── methodology.md                                             # 딥 리서치 7단계 방법론
 │       ├── kokjip-sizing-evidence.md                                  # 산정 근거: 원천 데이터 · 계산 재현 · 민감도
 │       └── kokjip-research.md                                         # 간이 딥 리서치: 경쟁 실사 · 채용 연계 단가
-└── 05-persona-spectrum-journey-map/
-    ├── methodology-journey-map.md                                     # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
-    ├── case-01-kokjip-lecture-review-prioritizer-personas.md          # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
-    ├── case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md  # 01-B 페르소나 스펙트럼 ①단계: 원본 12종
-    └── case-01-kokjip-lecture-review-prioritizer-journey-map.md       # 01-C 유형별 여정지도 + 지불자(기관) 여정
+├── 05-persona-spectrum-journey-map/
+│   ├── methodology-journey-map.md                                     # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
+│   ├── case-01-kokjip-lecture-review-prioritizer-personas.md          # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
+│   ├── case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md  # 01-B 페르소나 스펙트럼 ①단계: 원본 12종
+│   └── case-01-kokjip-lecture-review-prioritizer-journey-map.md       # 01-C 유형별 여정지도 + 지불자(기관) 여정
+└── 06-market-opportunity-score/
+    └── methodology.md                                                 # 방법론: 기회점수 (OS→AOS 수식 교정 + 사분면 Matrix + 산출 5단계)
 ```
 
 **딥 리서치는 챕터 폴더 아래에 둡니다.** 04의 산정 근거와 간이 리서치가 `04-.../deep-research/`에 있습니다.
