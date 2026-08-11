@@ -58,14 +58,20 @@ business-research-practice/
 │   ├── case-01-kokjip-lecture-review-prioritizer-personas.md          # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
 │   ├── case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md  # 01-B 페르소나 스펙트럼 ①단계: 원본 12종
 │   └── case-01-kokjip-lecture-review-prioritizer-journey-map.md       # 01-C 유형별 여정지도 + 지불자(기관) 여정
-└── 06-market-opportunity-score/
-    ├── methodology.md                                                 # 방법론: 기회점수 (OS→AOS 수식 교정 + 사분면 Matrix + 산출 5단계)
-    ├── methodology-dos.md                                             # 방법론(확장): DOS 시장 가중형 기회점수 (Market Relevance 산정 + AOS×DOS 처분)
-    ├── case-01-kokjip-lecture-review-prioritizer-pain-list.md         # ①단계: CJM에서 추린 대표 Pain 15건 + Goal + 순위/게이트 트랙
-    ├── case-01-kokjip-lecture-review-prioritizer-aos-matrix.md        # ②~⑤단계: Importance·Satisfaction 채점 + AOS 산출 + 중앙값 기준 Matrix
-    ├── case-01-kokjip-lecture-review-prioritizer-dos.md               # ⑥단계: DOS 산출 — SAM 기준(주) · SOM 기준(대조) 두 버전
-    └── case-01-kokjip-lecture-review-prioritizer-strategy.md          # ⑦ 전략 함의: 인식 격차 사슬 · 과금 시점 이동 · 기관 우선 순서
+├── 06-market-opportunity-score/
+│   ├── methodology.md                                                 # 방법론: 기회점수 (OS→AOS 수식 교정 + 사분면 Matrix + 산출 5단계)
+│   ├── methodology-dos.md                                             # 방법론(확장): DOS 시장 가중형 기회점수 (Market Relevance 산정 + AOS×DOS 처분)
+│   ├── case-01-kokjip-lecture-review-prioritizer-pain-list.md         # ①단계: CJM에서 추린 대표 Pain 15건 + Goal + 순위/게이트 트랙
+│   ├── case-01-kokjip-lecture-review-prioritizer-aos-matrix.md        # ②~⑤단계: Importance·Satisfaction 채점 + AOS 산출 + 중앙값 기준 Matrix
+│   ├── case-01-kokjip-lecture-review-prioritizer-dos.md               # ⑥단계: DOS 산출 — SAM 기준(주) · SOM 기준(대조) 두 버전
+│   └── case-01-kokjip-lecture-review-prioritizer-strategy.md          # ⑦ 전략 함의: 인식 격차 사슬 · 과금 시점 이동 · 기관 우선 순서
+└── 07-jtbd/
+    ├── methodology.md                                                 # 방법론: 전환 행동 기반 인터뷰 (모집 3그룹 + 질문 전략 + 4대 동인 + Job Statement)
+    ├── case-01-kokjip-lecture-review-prioritizer-interview-guide.md   # ①~③단계: 대상 7명 + 스크리너 + 데모 정의 + 공통 32문 + 페르소나별 문항지
+    └── case-01-kokjip-lecture-review-prioritizer-interview-transcripts.md  # ④~⑥단계: ⚫모의 응답 7인 전문 + 4대 동인 채집표 + Job Statement 19문
 ```
+
+**챕터 07의 응답지는 ⚫ 모의(simulated)입니다.** 실제 인터뷰가 아니라 페르소나 카드에서 역산한 가상 응답이며, 용도는 **문항지 리허설·분석 파이프라인 시험**입니다. 근거로 쓰지 않습니다 → [응답지 머리말](./07-jtbd/case-01-kokjip-lecture-review-prioritizer-interview-transcripts.md#-이-문서의-근거-등급--먼저-읽어야-하는-것)
 
 **딥 리서치는 챕터 폴더 아래에 둡니다.** 04의 산정 근거와 간이 리서치가 `04-.../deep-research/`에 있습니다.
 
