@@ -1,4 +1,4 @@
-# business-research-practice
+# business-research-kokjip
 
 **하나의 서비스를 7개 비즈니스 분석 프레임워크로 관통해 본 기록입니다.**
 
