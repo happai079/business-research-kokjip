@@ -1,8 +1,12 @@
 # 사례 02 — 자율주행 중심 완성차 기업의 가치사슬
 
+> **📌 참고 사례입니다.** 이 저장소의 주 분석 대상은 **「콕집」** 이고, 챕터 02의 주 사례는 → **[콕집의 가치사슬](./case-01-kokjip-lecture-review-prioritizer.md)** 입니다.
+>
+> 이 문서는 콕집과 무관한 산업의 **대조군**입니다. 제조·데이터 두 겹 사슬을 다뤄 가치사슬 도구가 도메인에 종속되지 않음을 확인하는 것이 목적입니다.
+
 분석 기준 시점: 2026년 8월
 - 적용 방법론: [Ch02 가치사슬 방법론](./methodology.md)
-- 선행 분석: [Ch01 5가지 힘 — 자율주행 자동차 산업](../01-porters-five-forces/case-02-autonomous-driving-automotive.md) (압박 총점 19/25)
+- 선행 분석: [Ch01 5가지 힘 — 자율주행 자동차 산업](../01-porters-five-forces/reference-autonomous-driving-automotive.md) (압박 총점 19/25)
 
 ---
 

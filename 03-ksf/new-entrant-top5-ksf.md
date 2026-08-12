@@ -3,10 +3,10 @@
 분석 기준 시점: 2026년 8월 · 대상 독자: 신규 진입을 준비하는 창업가·전략기획팀
 
 근거 문서
-- [Ch01 5가지 힘 — AX/DX 교육 산업](../01-porters-five-forces/case-01-ai-education-edtech.md) (압박 23/25) — 이하 **[1A]**
-- [Ch01 5가지 힘 — 자율주행 자동차 산업](../01-porters-five-forces/case-02-autonomous-driving-automotive.md) (압박 19/25) — 이하 **[1B]**
-- [Ch02 가치사슬 — AX/DX 교육 사업자](../02-value-chain/case-01-ai-education-edtech.md) — 이하 **[2A]**
-- [Ch02 가치사슬 — 자율주행 완성차](../02-value-chain/case-02-autonomous-driving-automotive.md) — 이하 **[2B]**
+- [Ch01 5가지 힘 — AX/DX 교육 산업](../01-porters-five-forces/reference-ai-education-edtech.md) (압박 23/25) — 이하 **[1A]**
+- [Ch01 5가지 힘 — 자율주행 자동차 산업](../01-porters-five-forces/reference-autonomous-driving-automotive.md) (압박 19/25) — 이하 **[1B]**
+- [Ch02 가치사슬 — AX/DX 교육 사업자](../02-value-chain/reference-ai-education-edtech.md) — 이하 **[2A]**
+- [Ch02 가치사슬 — 자율주행 완성차](../02-value-chain/reference-autonomous-driving-automotive.md) — 이하 **[2B]**
 
 각 KSF를 실제 기업으로 검증한 사례는 별도 문서로 정리했습니다 → **[KSF 실증 사례집](./ksf-case-evidence.md)**
 

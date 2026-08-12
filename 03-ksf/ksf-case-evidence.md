@@ -3,7 +3,7 @@
 분석 기준 시점: 2026년 8월
 
 - 검증 대상 문서: [신규 진입자를 위한 Top 5 핵심 성공 요인](./new-entrant-top5-ksf.md)
-- 상위 근거: [Ch01 5가지 힘 — 교육](../01-porters-five-forces/case-01-ai-education-edtech.md) **[1A]** · [Ch01 5가지 힘 — 자율주행](../01-porters-five-forces/case-02-autonomous-driving-automotive.md) **[1B]** · [Ch02 가치사슬 — 교육](../02-value-chain/case-01-ai-education-edtech.md) **[2A]** · [Ch02 가치사슬 — 자율주행](../02-value-chain/case-02-autonomous-driving-automotive.md) **[2B]**
+- 상위 근거: [Ch01 5가지 힘 — 교육](../01-porters-five-forces/reference-ai-education-edtech.md) **[1A]** · [Ch01 5가지 힘 — 자율주행](../01-porters-five-forces/reference-autonomous-driving-automotive.md) **[1B]** · [Ch02 가치사슬 — 교육](../02-value-chain/reference-ai-education-edtech.md) **[2A]** · [Ch02 가치사슬 — 자율주행](../02-value-chain/reference-autonomous-driving-automotive.md) **[2B]**
 
 **이 문서의 목적**: Top 5 KSF는 5가지 힘과 가치사슬 분석에서 논리적으로 도출한 결론입니다. 논리가 맞다면 실제 시장에서 그 요인을 갖춘 기업이 성공하고 갖추지 못한 기업이 실패했어야 합니다. 이 문서는 KSF 하나하나에 대해 그 대응 관계를 실제 기업으로 확인합니다. KSF 문서는 "왜 이것이 중요한가"에 답하고, 이 문서는 **"그것이 실제로 통했는가"**에 답합니다.
 

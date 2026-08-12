@@ -1,32 +1,63 @@
 # business-research-practice
 
-산업 및 비즈니스 분석 기초 프레임워크 학습 저장소.
+**하나의 서비스를 7개 비즈니스 분석 프레임워크로 관통해 본 기록입니다.**
 
-시장·고객·경쟁 구조를 분석하는 대표 프레임워크를 챕터별로 학습하고, 실제 사례에 적용한 결과물을 정리합니다.
+산업 구조에서 출발해 시장을 정의하고, 고객을 구체화하고, 무엇부터 할지의 우선순위까지 내려갑니다. 각 챕터는 앞 챕터의 산출물을 입력으로 받으므로 **뒤로 갈수록 앞의 판단이 검증되거나 뒤집힙니다.**
+
+## 분석 대상 — 「콕집」
+
+**국비 교육·대학 강의를 녹음·태깅해, 현직자 관점의 우선순위로 복습할 것만 골라주는 학습 앱**입니다. 창업 교육 워크숍에서 직접 정의한 아이템이며, **챕터 01~07 전부가 이 하나의 서비스를 대상으로 합니다.**
+
+| | 내용 |
+|---|---|
+| **해결하려는 상태** | Before: 강의가 매일 쌓여 복습을 미루고, 나중에 무엇부터 볼지 몰라 자료를 처음부터 다시 뒤짐 → After: 우선순위 높은 것만 복습하고 **남은 시간을 취업 준비에 재배분** |
+| **핵심 가치** | 학습 내용 중 **현직자 인사이트로 우선순위를 정해** 복습을 도와줌 |
+| **주 표적 / 주 지불자** | 국비 부트캠프 수강생 / **국비 훈련기관** — 둘이 분리된다는 것이 이 사업의 지배 조건 |
+| **분석 결과** | 산업 압박 22/25 · TAM 110~160억 · SAM 200억 · SOM 9.5억 |
+
+## 이 분석이 실제로 뒤집은 것
+
+프레임워크를 형식적으로 채우지 않았다는 증거로, **분석 과정에서 처음 가정이 깨진 지점**을 남겨 두었습니다.
+
+| 처음 생각 | 분석 후 | 어디서 |
+|---|---|---|
+| 국비 교육기관은 **홍보 채널** | 개인 지불과 기관 지불이 **112배** 벌어진다 → **주 판매 채널**이어야 한다 | [Ch04 §3-4](./04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md#3-4-괴리의-원인--누가-돈을-내는가가-다른-시장이다) |
+| 절박한 집단이 표적 | 공무원 준비생·장기 미취업 청년은 **절박해도 제외** — 절박함이 아니라 **제품이 작동하는지**가 조건 | [Ch04 §2-3](./04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md#2-3-칸별-크기근거처분) |
+| 차별화는 **기능**(녹음·요약·태깅) | 전부 무료로 존재한다. 차별화는 **AI 판정의 근거 데이터** 하나뿐 | [딥리서치 §4](./04-tam-sam-som-market-segment-map/deep-research/kokjip-research.md#4-6단계--차별화-축-재정의) |
+| 포트폴리오·채용 연계는 **확장 기능** | 건당 210만 원 = 개인 연 구독료의 **35배**. 확장이 아니라 **본 수익원** | [Ch04 §7 ④](./04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md#7-전략적-함의) |
+| 기관과 계약하면 강사 동의는 **일괄 처리** | 세계 표준은 그 반대 — 기관 계약은 동의를 **표준화할 뿐 면제하지 않는다** | [딥리서치 §5-4](./04-tam-sam-som-market-segment-map/deep-research/kokjip-research.md#5-4-패턴-d--강의-영역에서는-기관이-계약-틀을-만들고-강사-동의는-여전히-개별로-받는다) |
+| 신규 진입자 KSF **5개**로 충분 | 이 산업에는 6번째가 있다 — **원재료 접근권**(강사가 거부하면 제품이 없다) | [Ch03 §6](./03-ksf/case-01-kokjip-lecture-review-prioritizer-ksf-fit.md#6-신규-원재료-접근권의-확보--미충족) |
 
 ## 학습 챕터
 
-| # | 챕터 | 다루는 내용 |
+| # | 챕터 | 콕집에 적용한 결과 |
 |---|---|---|
-| 01 | Porter's Five Forces 모델 | 산업 구조와 경쟁 강도를 5가지 힘으로 분해 |
-| 02 | 기업 내부 활동의 가치 사슬 분석 | Value Chain 관점에서 내부 활동별 부가가치 진단 |
-| 03 | 핵심 성공 요인(KSFs) 분석 | 해당 산업에서 이기기 위한 필수 조건 도출 |
-| 04 | TAM-SAM-SOM 과 Market Segment Map | 시장 규모 산정과 세그먼트 지도 작성 |
-| 05 | 페르소나, 페르소나 스펙트럼, 고객 여정지도 | 고객을 구체화하고 접점별 경험을 추적 |
-| 06 | 시장기회 분석 | 기회점수(OS) 기반 우선순위 판단 |
-| 07 | JTBD(Jobs-To-Be-Done) 분석 | 고객 상황을 객관화해 해결할 과업 정의 |
+| 01 | Porter's Five Forces | 진입 산업의 압박 **22/25** — 최대 대체재는 경쟁사가 아니라 **"그냥 복습을 안 하는 것"** |
+| 02 | 기업 내부 활동의 가치 사슬 | 병목은 **판정 구간**. 마진은 *"한 번 만든 판정을 몇 명이 다시 쓰는가"* 로 결정된다 |
+| 03 | 핵심 성공 요인(KSFs) | 일반 KSF 5개 도출 → 콕집 적합도 판정: **충족 1 · 부분 2 · 미충족 2 + 신규 1** |
+| 04 | TAM-SAM-SOM · 세그먼트 맵 | TAM 110~160억 · SAM 200억 · SOM 9.5억. **SOM의 62%가 가장 약한 가정 위에 서 있다** |
+| 05 | 페르소나 · 스펙트럼 · 여정지도 | 사용·지불·영향 역할별 페르소나 12종 + 유형별 고객 여정 |
+| 06 | 시장기회 분석(OS·AOS·DOS) | 대표 Pain 15건 채점 → 기회점수 기반 우선순위와 전략 함의 |
+| 07 | JTBD 분석 | 전환 행동 기반 인터뷰 설계 + Job Statement 19문 |
 
 ## 진행 흐름
 
 ```
-산업 구조 파악 (01~03)  →  시장 정의 (04)  →  고객 이해 (05, 07)  →  기회 우선순위 (06)
-                 ↕
-         딥 리서치 (가정 검증)
+산업 구조 (01~03)  →  시장 정의 (04)  →  고객 이해 (05, 07)  →  기회 우선순위 (06)
+        ↕                    ↕
+      딥 리서치 (가정 검증) ──┘
 ```
 
-앞선 챕터의 산출물이 뒤 챕터의 입력이 됩니다. 예를 들어 05의 페르소나는 07의 JTBD 진술문으로, 04의 세그먼트와 07의 과업은 06의 기회점수 계산으로 이어집니다.
+앞 챕터의 산출물이 뒤 챕터의 입력이 됩니다. 01의 "유효 전략은 집중화"가 04의 세그먼트 선택으로, 04의 주 표적이 05의 페르소나로, 05의 Pain이 06의 기회점수로, 04의 상황 진술이 07의 JTBD로 이어집니다.
 
 프레임워크가 **분석의 틀**이라면 [딥 리서치](./04-tam-sam-som-market-segment-map/deep-research/methodology.md)는 **틀을 채울 사실을 찾아오는 절차**입니다. 각 챕터가 남긴 "검증이 필요한 가정"을 실제 데이터로 바꾸고, 그 결과를 다음 챕터의 입력으로 되돌립니다.
+
+## 문서 구성 규칙
+
+- **`case-01-kokjip-*`** = 콕집을 분석한 **주 사례**. 이 저장소의 본체입니다.
+- **`methodology*`** = 그 챕터의 분석 방법론 원문.
+- **`reference-*`** = 챕터 01~03을 처음 학습할 때 **다른 산업에 적용해 본 참고 사례**입니다. 콕집이 대상은 아니지만, 방법론이 도메인에 종속되지 않음을 확인하고 구조가 다른 산업과 대비하는 용도로 남겨 두었습니다.
+- **근거 표기** — 🟢 실측 / 🟡 유도 / 🔴 가설. 콕집 문서 전반에서 **추정과 실측을 구분해 표기**합니다.
 
 ## 구조
 
@@ -34,53 +65,48 @@
 business-research-practice/
 ├── README.md
 ├── 01-porters-five-forces/
-│   ├── methodology.md                            # 분석 방법론 원문
-│   ├── case-01-ai-education-edtech.md            # 사례: AI AX/DX 교육 에듀테크 산업
-│   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 중심 자동차 산업
-│   └── comparison-edtech-vs-automotive.md        # 두 시장 비교 분석
+│   ├── methodology.md                                # 분석 방법론 원문
+│   ├── case-01-kokjip-lecture-review-prioritizer.md  # ★ 주 사례: 콕집이 진입하는 산업 (압박 22/25)
+│   ├── reference-ai-education-edtech.md              # 참고: AX/DX 기업교육 산업 (공급 측 · 인접 배경)
+│   ├── reference-autonomous-driving-automotive.md    # 참고: 자율주행 자동차 산업 (대조군)
+│   └── reference-comparison-edtech-vs-automotive.md  # 참고 사례 간 비교
 ├── 02-value-chain/
-│   ├── methodology.md                            # 분석 방법론 (도메인 중립 질문표 + 출력 포맷 + 치환 예시)
-│   ├── case-01-ai-education-edtech.md            # 사례: AX/DX 교육 사업자의 가치사슬
-│   ├── case-02-autonomous-driving-automotive.md  # 사례: 자율주행 완성차 기업의 가치사슬
-│   └── comparison-edtech-vs-automotive.md        # 두 기업 가치사슬 비교 분석
+│   ├── methodology.md                                # 방법론 (도메인 중립 질문표 + 출력 포맷 + 치환 예시)
+│   ├── case-01-kokjip-lecture-review-prioritizer.md  # ★ 주 사례: 콕집의 가치사슬
+│   ├── reference-ai-education-edtech.md              # 참고: 교육 사업자의 가치사슬
+│   ├── reference-autonomous-driving-automotive.md    # 참고: 자율주행 완성차의 가치사슬
+│   └── reference-comparison-edtech-vs-automotive.md  # 참고 사례 간 비교
 ├── 03-ksf/
-│   ├── new-entrant-top5-ksf.md                   # 신규 진입자를 위한 Top 5 핵심 성공 요인
-│   └── ksf-case-evidence.md                      # 각 KSF를 실제 기업 사례로 검증한 사례집
+│   ├── new-entrant-top5-ksf.md                              # 신규 진입자를 위한 일반 KSF Top 5
+│   ├── ksf-case-evidence.md                                 # 각 KSF를 실제 기업 사례로 검증한 사례집
+│   └── case-01-kokjip-...-ksf-fit.md                        # ★ 주 사례: 콕집 KSF 적합도 진단 + 착수 순서
 ├── 04-tam-sam-som-market-segment-map/
-│   ├── methodology.md                                                 # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵 작성법)
-│   ├── case-01-kokjip-lecture-review-prioritizer.md                   # 사례: 「콕집」 시장 규모 산정 + 세그먼트 맵
-│   └── deep-research/                                                 # 산정 근거 · 간이 리서치
-│       ├── methodology.md                                             # 딥 리서치 7단계 방법론
-│       ├── kokjip-sizing-evidence.md                                  # 산정 근거: 원천 데이터 · 계산 재현 · 민감도
-│       └── kokjip-research.md                                         # 간이 딥 리서치: 경쟁 실사 · 채용 연계 단가
+│   ├── methodology.md                                       # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵)
+│   ├── case-01-kokjip-lecture-review-prioritizer.md         # ★ 시장 규모 산정 + 세그먼트 맵
+│   └── deep-research/                                       # 산정 근거 · 간이 리서치
+│       ├── methodology.md                                   # 딥 리서치 7단계 방법론
+│       ├── kokjip-sizing-evidence.md                        # 원천 데이터 · 계산 재현 · 민감도
+│       └── kokjip-research.md                               # 경쟁 실사 · 판정 근거 확정 · 녹음 권리 관행
 ├── 05-persona-spectrum-journey-map/
-│   ├── methodology-journey-map.md                                     # 방법론: 고객 여정지도 (단계 도출 4신호 + 레인 6개 + 재사용성 판정)
-│   ├── case-01-kokjip-lecture-review-prioritizer-personas.md          # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
-│   ├── case-01-kokjip-lecture-review-prioritizer-persona-spectrum.md  # 01-B 페르소나 스펙트럼 ①단계: 원본 12종
-│   └── case-01-kokjip-lecture-review-prioritizer-journey-map.md       # 01-C 유형별 여정지도 + 지불자(기관) 여정
+│   ├── methodology-journey-map.md                           # 방법론: 고객 여정지도
+│   ├── case-01-kokjip-...-personas.md                       # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
+│   ├── case-01-kokjip-...-persona-spectrum.md               # 01-B 페르소나 스펙트럼 원본 12종
+│   └── case-01-kokjip-...-journey-map.md                    # 01-C 유형별 여정지도 + 지불자(기관) 여정
 ├── 06-market-opportunity-score/
-│   ├── methodology.md                                                 # 방법론: 기회점수 (OS→AOS 수식 교정 + 사분면 Matrix + 산출 5단계)
-│   ├── methodology-dos.md                                             # 방법론(확장): DOS 시장 가중형 기회점수 (Market Relevance 산정 + AOS×DOS 처분)
-│   ├── case-01-kokjip-lecture-review-prioritizer-pain-list.md         # ①단계: CJM에서 추린 대표 Pain 15건 + Goal + 순위/게이트 트랙
-│   ├── case-01-kokjip-lecture-review-prioritizer-aos-matrix.md        # ②~⑤단계: Importance·Satisfaction 채점 + AOS 산출 + 중앙값 기준 Matrix
-│   ├── case-01-kokjip-lecture-review-prioritizer-dos.md               # ⑥단계: DOS 산출 — SAM 기준(주) · SOM 기준(대조) 두 버전
-│   └── case-01-kokjip-lecture-review-prioritizer-strategy.md          # ⑦ 전략 함의: 인식 격차 사슬 · 과금 시점 이동 · 기관 우선 순서
+│   ├── methodology.md                                       # 방법론: 기회점수 (OS→AOS + 사분면 Matrix)
+│   ├── methodology-dos.md                                   # 방법론(확장): DOS 시장 가중형 기회점수
+│   ├── case-01-kokjip-...-pain-list.md                      # ① CJM에서 추린 대표 Pain 15건 + Goal
+│   ├── case-01-kokjip-...-aos-matrix.md                     # ②~⑤ Importance·Satisfaction 채점 + AOS
+│   ├── case-01-kokjip-...-dos.md                            # ⑥ DOS 산출 (SAM 기준 · SOM 기준)
+│   └── case-01-kokjip-...-strategy.md                       # ⑦ 전략 함의
 └── 07-jtbd/
-    ├── methodology.md                                                 # 방법론: 전환 행동 기반 인터뷰 (모집 3그룹 + 질문 전략 + 4대 동인 + Job Statement)
-    ├── case-01-kokjip-lecture-review-prioritizer-interview-guide.md   # ①~③단계: 대상 7명 + 스크리너 3종 + 데모 정의 + 공통 32문 + 페르소나별 문항지
-    └── case-01-kokjip-lecture-review-prioritizer-interview-transcripts.md  # ④~⑥단계: ⚫모의 응답 7인 전문 + 4대 동인 채집표 + Job Statement 19문
+    ├── methodology.md                                       # 방법론: 전환 행동 기반 인터뷰
+    ├── case-01-kokjip-...-interview-guide.md                # ①~③ 대상 7명 + 스크리너 + 공통 32문
+    └── case-01-kokjip-...-interview-transcripts.md          # ④~⑥ ⚫모의 응답 7인 + Job Statement 19문
 ```
+
+## 근거의 한계를 명시한 것
 
 **챕터 07의 응답지는 ⚫ 모의(simulated)입니다.** 실제 인터뷰가 아니라 페르소나 카드에서 역산한 가상 응답이며, 용도는 **문항지 리허설·분석 파이프라인 시험**입니다. 근거로 쓰지 않습니다 → [응답지 머리말](./07-jtbd/case-01-kokjip-lecture-review-prioritizer-interview-transcripts.md#-이-문서의-근거-등급--먼저-읽어야-하는-것)
 
-**딥 리서치는 챕터 폴더 아래에 둡니다.** 04의 산정 근거와 간이 리서치가 `04-.../deep-research/`에 있습니다.
-
-챕터 01의 두 시장을 챕터 02에서도 같은 대상으로 이어 분석했습니다. 01은 산업(외부) 구조를, 02는 기업(내부) 활동을 보므로 두 챕터를 함께 읽어야 "어디서 싸울지"와 "어떻게 싸울지"가 연결됩니다.
-
-## 분석 대상 서비스
-
-챕터 04부터는 **「콕집」** 을 분석 대상으로 삼습니다 — 국비 교육 수강생을 위한, **현직자 인사이트로 복습 우선순위를 정해주는 앱**입니다. 챕터 01~03이 분석한 **산업(에듀테크·AI 교육)** 안에서 **학습자 측에 서는 도구**이며, 산정 결과는 TAM 110~160억 · SAM 200억 · SOM 9.5억입니다 → [Ch04 사례](./04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md)
-
-## 참고
-
-각 챕터는 개념 정리 → 템플릿 작성 → 사례 적용 순으로 진행합니다.
+**미해소 항목도 그대로 남겨 두었습니다.** 가장 큰 것은 개인 유료 전환율 · 기관 지불 단가 · 강사 발화의 신호 밀도 세 가지이고, 셋 다 **인터뷰와 1일짜리 실험으로 해소 가능**하다는 점까지 [Ch03 착수 순서](./03-ksf/case-01-kokjip-lecture-review-prioritizer-ksf-fit.md#한-장-요약--착수-순서)에 적어 두었습니다.

@@ -1,9 +1,11 @@
 # 비교 분석 — AX/DX 교육 사업자 vs 자율주행 완성차 기업의 가치사슬
 
+> **📌 참고 사례 간 비교입니다.** 이 저장소의 주 분석 대상은 **「콕집」** 이고, 챕터 02의 주 사례는 → **[콕집의 가치사슬](./case-01-kokjip-lecture-review-prioritizer.md)** 입니다. 아래는 두 참고 사례를 맞대어 본 훈련 기록입니다.
+
 분석 기준 시점: 2026년 8월
-- 시장 A: [AX/DX 교육 사업자의 가치사슬](./case-01-ai-education-edtech.md)
-- 시장 B: [자율주행 완성차 기업의 가치사슬](./case-02-autonomous-driving-automotive.md)
-- 선행 비교: [Ch01 5가지 힘 비교](../01-porters-five-forces/comparison-edtech-vs-automotive.md)
+- 시장 A: [AX/DX 교육 사업자의 가치사슬](./reference-ai-education-edtech.md)
+- 시장 B: [자율주행 완성차 기업의 가치사슬](./reference-autonomous-driving-automotive.md)
+- 선행 비교: [Ch01 5가지 힘 비교](../01-porters-five-forces/reference-comparison-edtech-vs-automotive.md)
 
 ---
 

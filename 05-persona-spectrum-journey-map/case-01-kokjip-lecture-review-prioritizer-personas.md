@@ -9,7 +9,8 @@
 근거 문서
 - [Ch04 TAM-SAM-SOM & 세그먼트 맵](../04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md) — 이하 **[4]**
 - 산정 근거 데이터 → [kokjip-sizing-evidence.md](../04-tam-sam-som-market-segment-map/deep-research/kokjip-sizing-evidence.md) — **[E]**
-- [Ch01 5가지 힘 — AI/AX 교육 산업](../01-porters-five-forces/case-01-ai-education-edtech.md) — **[1A]**
+- [Ch01 5가지 힘 — 콕집이 진입하는 산업(학습 보조 도구)](../01-porters-five-forces/case-01-kokjip-lecture-review-prioritizer.md) — **[1K]**
+- [Ch01 5가지 힘 — AI/AX 교육 산업](../01-porters-five-forces/reference-ai-education-edtech.md) — **[1A]**
 
 **근거 표기** — 🟢 실측 / 🟡 유도 / 🔴 가설(인터뷰 검증 필요)
 

@@ -1,8 +1,10 @@
 # 비교 분석 — AX/DX 교육 산업 vs 자율주행 자동차 산업
 
+> **📌 참고 사례 간 비교입니다.** 이 저장소의 주 분석 대상은 **「콕집」** 이고, 챕터 01의 주 사례는 → **[콕집이 진입하는 산업 — 학습 보조 도구](./case-01-kokjip-lecture-review-prioritizer.md)** 입니다. 아래는 두 참고 산업을 맞대어 본 훈련 기록입니다.
+
 분석 기준 시점: 2026년 8월
-- 시장 A: [AI AX/DX 교육 중심 에듀테크 산업](./case-01-ai-education-edtech.md)
-- 시장 B: [인공지능 자율주행 중심 자동차 산업](./case-02-autonomous-driving-automotive.md)
+- 시장 A: [AI AX/DX 교육 중심 에듀테크 산업](./reference-ai-education-edtech.md)
+- 시장 B: [인공지능 자율주행 중심 자동차 산업](./reference-autonomous-driving-automotive.md)
 
 ---
 

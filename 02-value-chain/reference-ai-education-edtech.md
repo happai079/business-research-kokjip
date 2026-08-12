@@ -1,8 +1,12 @@
 # 사례 01 — AI AX/DX 교육 사업자의 가치사슬
 
+> **📌 참고 사례입니다.** 이 저장소의 주 분석 대상은 **「콕집」** 이고, 챕터 02의 주 사례는 → **[콕집의 가치사슬](./case-01-kokjip-lecture-review-prioritizer.md)** 입니다.
+>
+> 이 문서는 **교육을 파는 사업자**의 사슬이라 콕집과 대상이 다릅니다. 다만 두 사슬은 같은 병목 구조를 공유합니다 — 여기서는 **강사 시간**이, 콕집에서는 **추론 비용**이 매출에 비례해 늘어납니다.
+
 분석 기준 시점: 2026년 8월
 - 적용 방법론: [Ch02 가치사슬 방법론](./methodology.md)
-- 선행 분석: [Ch01 5가지 힘 — AX/DX 교육 산업](../01-porters-five-forces/case-01-ai-education-edtech.md) (압박 총점 23/25)
+- 선행 분석: [Ch01 5가지 힘 — AX/DX 교육 산업](../01-porters-five-forces/reference-ai-education-edtech.md) (압박 총점 23/25)
 
 ---
 
