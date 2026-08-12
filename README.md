@@ -67,7 +67,7 @@ business-research-practice/
 │   └── case-01-kokjip-lecture-review-prioritizer-strategy.md          # ⑦ 전략 함의: 인식 격차 사슬 · 과금 시점 이동 · 기관 우선 순서
 └── 07-jtbd/
     ├── methodology.md                                                 # 방법론: 전환 행동 기반 인터뷰 (모집 3그룹 + 질문 전략 + 4대 동인 + Job Statement)
-    ├── case-01-kokjip-lecture-review-prioritizer-interview-guide.md   # ①~③단계: 대상 7명 + 스크리너 + 데모 정의 + 공통 32문 + 페르소나별 문항지
+    ├── case-01-kokjip-lecture-review-prioritizer-interview-guide.md   # ①~③단계: 대상 7명 + 스크리너 3종 + 데모 정의 + 공통 32문 + 페르소나별 문항지
     └── case-01-kokjip-lecture-review-prioritizer-interview-transcripts.md  # ④~⑥단계: ⚫모의 응답 7인 전문 + 4대 동인 채집표 + Job Statement 19문
 ```
 
