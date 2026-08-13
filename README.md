@@ -72,7 +72,7 @@
 ## 구조
 
 ```
-business-research-practice/
+business-research-kokjip/
 ├── README.md
 ├── 01-porters-five-forces/
 │   ├── methodology.md                                # 분석 방법론 원문
