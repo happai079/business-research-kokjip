@@ -1,12 +1,12 @@
 # business-research-kokjip
 
-**하나의 서비스를 7개 비즈니스 분석 프레임워크로 관통해 본 기록입니다.**
+**하나의 서비스를 8개 비즈니스 분석 프레임워크로 관통해 본 기록입니다.**
 
 산업 구조에서 출발해 시장을 정의하고, 고객을 구체화하고, 무엇부터 할지의 우선순위까지 내려갑니다. 각 챕터는 앞 챕터의 산출물을 입력으로 받으므로 **뒤로 갈수록 앞의 판단이 검증되거나 뒤집힙니다.**
 
 ## 분석 대상 — 「콕집」
 
-**국비 교육·대학 강의를 녹음·태깅해, 현직자 관점의 우선순위로 복습할 것만 골라주는 학습 앱**입니다. 창업 교육 워크숍에서 직접 정의한 아이템이며, **챕터 01~07 전부가 이 하나의 서비스를 대상으로 합니다.**
+**국비 교육·대학 강의를 녹음·태깅해, 현직자 관점의 우선순위로 복습할 것만 골라주는 학습 앱**입니다. 창업 교육 워크숍에서 직접 정의한 아이템이며, **챕터 01~08 전부가 이 하나의 서비스를 대상으로 합니다.**
 
 솔루션 시각화
 
@@ -36,6 +36,7 @@
 | 차별화는 **기능**(녹음·요약·태깅) | 전부 무료로 존재한다. 차별화는 **AI 판정의 근거 데이터** 하나뿐 | [딥리서치 §4](./04-tam-sam-som-market-segment-map/deep-research/kokjip-research.md#4-6단계--차별화-축-재정의) |
 | 포트폴리오·채용 연계는 **확장 기능** | 건당 210만 원 = 개인 연 구독료의 **35배**. 확장이 아니라 **본 수익원** | [Ch04 §7 ④](./04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md#7-전략적-함의) |
 | 기관과 계약하면 강사 동의는 **일괄 처리** | 세계 표준은 그 반대 — 기관 계약은 동의를 **표준화할 뿐 면제하지 않는다** | [딥리서치 §5-4](./04-tam-sam-som-market-segment-map/deep-research/kokjip-research.md#5-4-패턴-d--강의-영역에서는-기관이-계약-틀을-만들고-강사-동의는-여전히-개별로-받는다) |
+| 기관 채널은 **비어 있는 시장** | 엘리스LXP가 **1,800여 기관·대학 50여 곳**에 이미 들어가 있다 → 개척이 아니라 **벤더 교체 영업** | [Ch08 §6-3](./08-competitor-value-declaration/case-01-kokjip-lecture-review-prioritizer-competitor-briefing.md#6-3-그러나-빈자리가-곧-기회는-아니다--세-가지-유보) |
 | 신규 진입자 KSF **5개**로 충분 | 이 산업에는 6번째가 있다 — **원재료 접근권**(강사가 거부하면 제품이 없다) | [Ch03 §6](./03-ksf/case-01-kokjip-lecture-review-prioritizer-ksf-fit.md#6-신규-원재료-접근권의-확보--미충족) |
 
 ## 분석 챕터
@@ -49,6 +50,7 @@
 | 05 | 페르소나 · 스펙트럼 · 여정지도 | 사용·지불·영향 역할별 페르소나 12종 + 유형별 고객 여정 |
 | 06 | 시장기회 분석(OS·AOS·DOS) | 대표 Pain 15건 채점 → 기회점수 기반 우선순위와 전략 함의 |
 | 07 | JTBD 분석 | 전환 행동 기반 인터뷰 설계 + Job Statement 19문 |
+| 08 | 경쟁사 가치 선언 브리핑 | 경쟁 8곳 실사 → 규모·BM·전략 비교 + **가치 선언문 역산**. 여덟 곳 중 **"뺄셈"을 선언한 곳은 0** |
 
 ## 진행 흐름
 
@@ -109,10 +111,12 @@ business-research-kokjip/
 │   ├── case-01-kokjip-...-aos-matrix.md                     # ②~⑤ Importance·Satisfaction 채점 + AOS
 │   ├── case-01-kokjip-...-dos.md                            # ⑥ DOS 산출 (SAM 기준 · SOM 기준)
 │   └── case-01-kokjip-...-strategy.md                       # ⑦ 전략 함의
-└── 07-jtbd/
-    ├── methodology.md                                       # 방법론: 전환 행동 기반 인터뷰
-    ├── case-01-kokjip-...-interview-guide.md                # ①~③ 대상 7명 + 스크리너 + 공통 32문
-    └── case-01-kokjip-...-interview-transcripts.md          # ④~⑥ ⚫모의 응답 7인 + Job Statement 19문
+├── 07-jtbd/
+│   ├── methodology.md                                       # 방법론: 전환 행동 기반 인터뷰
+│   ├── case-01-kokjip-...-interview-guide.md                # ①~③ 대상 7명 + 스크리너 + 공통 32문
+│   └── case-01-kokjip-...-interview-transcripts.md          # ④~⑥ ⚫모의 응답 7인 + Job Statement 19문
+└── 08-competitor-value-declaration/
+    └── case-01-kokjip-...-competitor-briefing.md            # ★ 경쟁 8곳 브리핑 + 가치 선언문 도출 + 종합 분석
 ```
 
 ## 근거의 한계를 명시한 것
