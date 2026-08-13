@@ -37,6 +37,7 @@
 | 포트폴리오·채용 연계는 **확장 기능** | 건당 210만 원 = 개인 연 구독료의 **35배**. 확장이 아니라 **본 수익원** | [Ch04 §7 ④](./04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md#7-전략적-함의) |
 | 기관과 계약하면 강사 동의는 **일괄 처리** | 세계 표준은 그 반대 — 기관 계약은 동의를 **표준화할 뿐 면제하지 않는다** | [딥리서치 §5-4](./04-tam-sam-som-market-segment-map/deep-research/kokjip-research.md#5-4-패턴-d--강의-영역에서는-기관이-계약-틀을-만들고-강사-동의는-여전히-개별로-받는다) |
 | 기관 채널은 **비어 있는 시장** | 엘리스LXP가 **1,800여 기관·대학 50여 곳**에 이미 들어가 있다 → 개척이 아니라 **벤더 교체 영업** | [Ch08 §6-3](./08-competitor-value-declaration/case-01-kokjip-lecture-review-prioritizer-competitor-briefing.md#6-3-그러나-빈자리가-곧-기회는-아니다--세-가지-유보) |
+| 차별화는 **"버릴 것을 골라준다"** 로 선언하면 된다 | 그 목적어가 **강의**가 되는 순간 기관에는 커리큘럼 감사로, 강사에게는 자기 평가로 들린다 → 목적어를 **학습자의 시간**으로 옮기고 근거는 **강사 자신의 말**로 세운다 | [Ch08 §6-4~6-5](./08-competitor-value-declaration/case-01-kokjip-lecture-review-prioritizer-competitor-briefing.md#6-4-뺄셈-선언에는-치명적인-부작용이-있다--비어-있는-데는-이유가-있을-수-있다) |
 | 신규 진입자 KSF **5개**로 충분 | 이 산업에는 6번째가 있다 — **원재료 접근권**(강사가 거부하면 제품이 없다) | [Ch03 §6](./03-ksf/case-01-kokjip-lecture-review-prioritizer-ksf-fit.md#6-신규-원재료-접근권의-확보--미충족) |
 
 ## 분석 챕터
