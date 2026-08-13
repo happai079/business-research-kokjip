@@ -25,3 +25,6 @@ Desktop.ini
 *.tmp
 *.log
 ~$*
+
+# Skill scratch (humanize-korean 등 실행 중 생성되는 임시 산출물)
+_workspace/
