@@ -58,6 +58,7 @@
 | 부록 | 내용 |
 |---|---|
 | [A. 범용 AI 시대의 학습자 Pain 제로베이스 재탐색](./appendix-a-post-ai-learner-pain/) | 08장에서 **"복습 우선순위"가 범용 AI에 대체 가능**하다는 점이 드러난 뒤, **콕집 가설을 격리한 상태에서** 학습 Pain을 처음부터 다시 발굴한 기록. Pain 14건 중 **7건 탈락(4건은 "AI가 이미 먹은 시장")**, 살아남은 것은 **세 덩어리** |
+| ↳ [A-2. AI 대체 가능성 · 8기준 사업성 비교](./appendix-a-post-ai-learner-pain/ai-substitutability-and-viability.md) | 14건을 **실제 서비스·시장 수치**(Karat·HackerRank·Turnitin·Duolingo·챌린저스·Glean·Anki 등)로 재검증. **AI 발전이 문제를 키우는 것과 없애는 것**을 갈라 순위를 뒤집음 |
 
 **부록 A는 챕터 01~08의 결론을 이어받지 않습니다.** 오히려 앞 트랙이 전제한 문제 정의를 폐기한 뒤 다시 시작하며, 앞 챕터를 수정하거나 삭제하지 않고 **두 트랙을 병렬로 남깁니다.** 한 줄 결론은 *"범용 AI 시대에 희소해진 것은 지식이 아니라 「이 사람이 실제로 무엇을 어떻게 했는지의 기록」"* 입니다.
 
@@ -129,7 +130,8 @@ business-research-kokjip/
 └── appendix-a-post-ai-learner-pain/                         # ◆ 부록: 본 트랙과 분리된 제로베이스 재탐색
     ├── README.md                                            # 분리 원칙 + 콕집 가설 격리 선언
     ├── methodology-zero-based-pain-discovery.md             # 방법론: 금지 목록 + 범용 AI 필터 + 판정 5문
-    └── pain-inventory-post-ai-era.md                        # ★ Pain 14건 (상황·현재 해결 방식·판정)
+    ├── pain-inventory-post-ai-era.md                        # ★ A-1 Pain 14건 (상황·현재 해결 방식·판정)
+    └── ai-substitutability-and-viability.md                 # ★ A-2 AI 대체 가능성 + 8기준 사업성 비교
 ```
 
 ## 근거의 한계를 명시한 것
