@@ -12,7 +12,7 @@
 - [Ch01 5가지 힘 — 콕집이 진입하는 산업(학습 보조 도구)](../01-porters-five-forces/case-01-kokjip-lecture-review-prioritizer.md) — **[1K]**
 - [Ch01 5가지 힘 — AI/AX 교육 산업](../01-porters-five-forces/reference-ai-education-edtech.md) — **[1A]**
 
-**근거 표기** — 🟢 실측 / 🟡 유도 / 🔴 가설(인터뷰 검증 필요)
+**근거 표기** — 🟢 실측 / 🟡 추론 / 🔴 가설(인터뷰 검증 필요)
 
 ---
 

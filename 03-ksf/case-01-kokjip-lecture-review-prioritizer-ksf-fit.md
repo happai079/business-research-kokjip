@@ -10,7 +10,7 @@
 - [Ch02 가치사슬 — 콕집](../02-value-chain/case-01-kokjip-lecture-review-prioritizer.md) — 이하 **[2K]**
 - [Ch04 시장 규모 산정](../04-tam-sam-som-market-segment-map/case-01-kokjip-lecture-review-prioritizer.md) — 이하 **[4K]**
 
-**근거 표기** — 🟢 실측 / 🟡 유도 / 🔴 가설
+**근거 표기** — 🟢 실측 / 🟡 추론 / 🔴 가설
 
 ---
 

@@ -7,7 +7,7 @@
 - 선행 분석: [Ch01 5가지 힘 — 학습 보조 도구 산업](../01-porters-five-forces/case-01-kokjip-lecture-review-prioritizer.md) (압박 총점 22/25) — 이하 **[1K]**
 - 참고: [참고 사례 — AX/DX 교육 사업자의 가치사슬](./reference-ai-education-edtech.md) — **교육을 파는 쪽**의 사슬이며 대상이 다르다
 
-**근거 표기** — 🟢 실측 / 🟡 유도 / 🔴 가설
+**근거 표기** — 🟢 실측 / 🟡 추론 / 🔴 가설
 
 ---
 
