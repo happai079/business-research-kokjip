@@ -53,6 +53,14 @@
 | 07 | JTBD 분석 | 전환 행동 기반 인터뷰 설계 + Job Statement 19문 |
 | 08 | 경쟁사 가치 선언 브리핑 | 경쟁 8곳 실사 → 규모·BM·전략 비교 + **가치 선언문 역산**. 여덟 곳 중 **"뺄셈"을 선언한 곳은 0** → 참조 선언 필터링 후 **콕집 가치 목표 3안**(시간·출처·결과) 도출 |
 
+## 부록 — 본 트랙과 분리된 별도 탐색
+
+| 부록 | 내용 |
+|---|---|
+| [A. 범용 AI 시대의 학습자 Pain 제로베이스 재탐색](./appendix-a-post-ai-learner-pain/) | 08장에서 **"복습 우선순위"가 범용 AI에 대체 가능**하다는 점이 드러난 뒤, **콕집 가설을 격리한 상태에서** 학습 Pain을 처음부터 다시 발굴한 기록. Pain 14건 중 **7건 탈락(4건은 "AI가 이미 먹은 시장")**, 살아남은 것은 **세 덩어리** |
+
+**부록 A는 챕터 01~08의 결론을 이어받지 않습니다.** 오히려 앞 트랙이 전제한 문제 정의를 폐기한 뒤 다시 시작하며, 앞 챕터를 수정하거나 삭제하지 않고 **두 트랙을 병렬로 남깁니다.** 한 줄 결론은 *"범용 AI 시대에 희소해진 것은 지식이 아니라 「이 사람이 실제로 무엇을 어떻게 했는지의 기록」"* 입니다.
+
 ## 진행 흐름
 
 ```
@@ -116,8 +124,12 @@ business-research-kokjip/
 │   ├── methodology.md                                       # 방법론: 전환 행동 기반 인터뷰
 │   ├── case-01-kokjip-...-interview-guide.md                # ①~③ 대상 7명 + 스크리너 + 공통 32문
 │   └── case-01-kokjip-...-interview-transcripts.md          # ④~⑥ ⚫모의 응답 7인 + Job Statement 19문
-└── 08-competitor-value-declaration/
-    └── case-01-kokjip-...-competitor-briefing.md            # ★ 경쟁 8곳 브리핑 + 가치 선언문 도출 + 종합 분석
+├── 08-competitor-value-declaration/
+│   └── case-01-kokjip-...-competitor-briefing.md            # ★ 경쟁 8곳 브리핑 + 가치 선언문 도출 + 종합 분석
+└── appendix-a-post-ai-learner-pain/                         # ◆ 부록: 본 트랙과 분리된 제로베이스 재탐색
+    ├── README.md                                            # 분리 원칙 + 콕집 가설 격리 선언
+    ├── methodology-zero-based-pain-discovery.md             # 방법론: 금지 목록 + 범용 AI 필터 + 판정 5문
+    └── pain-inventory-post-ai-era.md                        # ★ Pain 14건 (상황·현재 해결 방식·판정)
 ```
 
 ## 근거의 한계를 명시한 것
