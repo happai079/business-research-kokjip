@@ -61,6 +61,7 @@
 | ↳ [A-2. AI 대체 가능성 · 8기준 사업성 비교](./appendix-a-post-ai-learner-pain/ai-substitutability-and-viability.md) | 14건을 **실제 서비스·시장 수치**(Karat·HackerRank·Turnitin·Duolingo·챌린저스·Glean·Anki 등)로 재검증. **AI 발전이 문제를 키우는 것과 없애는 것**을 갈라 순위를 뒤집음 |
 | ↳ [A-3. Opportunity Map · 검증 과제 · 존폐 판단](./appendix-a-post-ai-learner-pain/opportunity-map-and-validation-plan.md) | 5축 지도로 **검증 대상 2+1 선정**. 서비스 방향은 **8개를 미확정 가설로** 두고, 대신 **한 달짜리 검증 3건 + 사전 임계값**을 확정. **콕집 유지·피벗·폐기 결정 트리** 포함 |
 | ↳ [A-4. P-09 재검토 — 한국 채용시장 실사](./appendix-a-post-ai-learner-pain/p09-rehypothesis-korean-hiring.md) | *"AI가 만든 것으로 의심받는다"* 가설을 뒤집음. 시장은 **의심이 아니라 활용 역량 평가**로 이동 중(무신사 66명 선발·컬리 코테 AI 허용). **선언 24.2%(4위) vs 실제 국내 2곳**의 간극을 계량하고 P-09의 목적어를 **협업 기록**으로 재정의 |
+| ↳ [A-5. 기업 vs 취업자 Pain 분리 · 대체 수단 9종](./appendix-a-post-ai-learner-pain/two-sided-pain-employer-vs-jobseeker.md) | 두 Pain이 **같은 문제의 양면이 아님**을 밝힘 — **기업은 회피 가능(경력직), 취업자는 불가능**. 현행 수단 9종을 비교해 **「신입 + 긴 관측 + AI 활용 과정」 칸이 비어 있음**을 확인하고, 기업이 그 칸을 **가장 비싼 방법(인턴 35%→64%)** 으로 메우고 있음을 지목 |
 
 **부록 A는 챕터 01~08의 결론을 이어받지 않습니다.** 오히려 앞 트랙이 전제한 문제 정의를 폐기한 뒤 다시 시작하며, 앞 챕터를 수정하거나 삭제하지 않고 **두 트랙을 병렬로 남깁니다.** 한 줄 결론은 *"범용 AI 시대에 희소해진 것은 지식이 아니라 「이 사람이 실제로 무엇을 어떻게 했는지의 기록」"* 입니다.
 
@@ -135,7 +136,8 @@ business-research-kokjip/
     ├── pain-inventory-post-ai-era.md                        # ★ A-1 Pain 14건 (상황·현재 해결 방식·판정)
     ├── ai-substitutability-and-viability.md                 # ★ A-2 AI 대체 가능성 + 8기준 사업성 비교
     ├── opportunity-map-and-validation-plan.md               # ★ A-3 Opportunity Map + 검증 과제 + 존폐 판단 기준
-    └── p09-rehypothesis-korean-hiring.md                    # ★ A-4 P-09 재검토 (한국 채용시장 실사 · 선언 vs 실제)
+    ├── p09-rehypothesis-korean-hiring.md                    # ★ A-4 P-09 재검토 (한국 채용시장 실사 · 선언 vs 실제)
+    └── two-sided-pain-employer-vs-jobseeker.md              # ★ A-5 기업/취업자 Pain 분리 + 대체 수단 9종 비교
 ```
 
 ## 근거의 한계를 명시한 것
