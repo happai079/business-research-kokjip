@@ -51,7 +51,17 @@
 | 05 | 페르소나 · 스펙트럼 · 여정지도 | 사용·지불·영향 역할별 페르소나 12종 + 유형별 고객 여정 |
 | 06 | 시장기회 분석(OS·AOS·DOS) | 대표 Pain 15건 채점 → 기회점수 기반 우선순위와 전략 함의 |
 | 07 | JTBD 분석 | 전환 행동 기반 인터뷰 설계 + Job Statement 19문 |
-| 08 | 경쟁사 가치 선언 브리핑 | 경쟁 8곳 실사 → 규모·BM·전략 비교 + **가치 선언문 역산**. 여덟 곳 중 **"뺄셈"을 선언한 곳은 0** → 참조 선언 필터링 후 **콕집 가치 목표 3안**(시간·출처·결과) 도출 |
+| 08 | 경쟁사 가치 선언 브리핑 & VPS | 경쟁 8곳 실사 → 가치 선언문 역산 + **가치목표 3안(시간·출처·결과) 재검토** → **[최종 VPS 기준 문서 v2.0 (rooted)](./08-competitor-value-declaration/KOKJIP-VPS-v2_0-rooted.md)** 확립 |
+
+## 최종 산출물 — KOKJIP-VPS-v2_0-rooted
+
+01~08장의 분석과 부록 A의 판정을 종합 대조하여 **PRD 작성 및 제품 의사결정의 공식 근거 기준 문서**로 수립된 최종 산출물입니다.
+
+> **[KOKJIP-VPS-v2_0-rooted.md](./08-competitor-value-declaration/KOKJIP-VPS-v2_0-rooted.md)** (루트 사본: [./KOKJIP-VPS-v2_0-rooted.md](./KOKJIP-VPS-v2_0-rooted.md))
+>
+> - **One-Line Positioning:** 콕집은 AI가 학습 내용의 중요도를 임의 판단하는 도구가 아니라, **강사가 실무 중요도를 직접 언급한 순간을 근거(Provenance)로 삼아, 남은 시간 안에서 가장 먼저 볼 것만 짚어주는 학습 우선순위 서비스**입니다.
+> - **A·B·C 가치목표 위상:** **B(강사 발화 출처 기반 우선순위)**가 코어 차별화 가치이며, **A(시간 예산 절약)**는 B를 전달하는 진입 프레이밍/UI로 종속됩니다. **C(취업 결과 연계)**는 9~12개월 시차·극소 표본(13명/차수 🟢)·이해상충으로 현 VP에서 전면 제외하고 데이터 적립으로 관리합니다.
+> - **선행 게이트 (Conditional Go):** 복잡한 AI 파이프라인 개발 전, 실제 KDT 녹취 분석을 통해 **강사 발화 신호 밀도(Signal Density, 시간당 ≥2.0회 🔴)**를 실측하고, 20명 대상 Wizard of Oz 프로토타입으로 출처 신뢰를 검증한 후 PRD로 이행합니다.
 
 ## 부록 — 본 트랙과 분리된 별도 탐색
 
@@ -69,18 +79,24 @@
 ## 진행 흐름
 
 ```
-산업 구조 (01~03)  →  시장 정의 (04)  →  고객 이해 (05, 07)  →  기회 우선순위 (06)
-        ↕                    ↕
-      딥 리서치 (가정 검증) ──┘
+산업 구조 (01~03)  →  시장 정의 (04)  →  고객 이해 (05, 07)  →  기회 우선순위 (06)  →  경쟁·VPS (08)
+        ↕                    ↕                                                     │
+      딥 리서치 (가정 검증) ──┘                                                     ▼
+                                                                        최종 VPS v2.0 (rooted)
+                                                                                   │
+                                                                           선행 가설 실측 (3일)
+                                                                                   ▼
+                                                                           PRD 작성 및 MVP 착수
 ```
 
-앞 챕터의 산출물이 뒤 챕터의 입력이 됩니다. 01의 "유효 전략은 집중화"가 04의 세그먼트 선택으로, 04의 주 표적이 05의 페르소나로, 05의 Pain이 06의 기회점수로, 04의 상황 진술이 07의 JTBD로 이어집니다.
+앞 챕터의 산출물이 뒤 챕터의 입력이 됩니다. 01의 "유효 전략은 집중화"가 04의 세그먼트 선택으로, 04의 주 표적이 05의 페르소나로, 05의 Pain이 06의 기회점수로, 04의 상황 진술이 07의 JTBD로, 08의 경쟁 실사 및 가치 재검토가 **최종 VPS v2.0**으로 완결됩니다.
 
 프레임워크가 **분석의 틀**이라면 [딥 리서치](./04-tam-sam-som-market-segment-map/deep-research/methodology.md)는 **틀을 채울 사실을 찾아오는 절차**입니다. 각 챕터가 남긴 "검증이 필요한 가정"을 실제 데이터로 바꾸고, 그 결과를 다음 챕터의 입력으로 되돌립니다.
 
 ## 문서 구성 규칙
 
 - **`case-01-kokjip-*`** = 콕집을 분석한 **주 사례**. 이 저장소의 본체입니다.
+- **`KOKJIP-VPS-*`** = 챕터 08 분석을 바탕으로 도출·통합·확립된 **최종 Value Proposition 기준 문서**.
 - **`methodology*`** = 그 챕터의 분석 방법론 원문.
 - **`reference-*`** = 챕터 01~03을 처음 학습할 때 **다른 산업에 적용해 본 참고 사례**입니다. 콕집이 대상은 아니지만, 방법론이 도메인에 종속되지 않음을 확인하고 구조가 다른 산업과 대비하는 용도로 남겨 두었습니다.
 - **근거 표기** — 🟢 실측(공개 통계·실사로 확인) / 🟡 추론(실측에서 계산·논리로 도출) / 🔴 가설(이어붙일 실측이 없음). 콕집 문서 전반에서 **추정과 실측을 구분해 표기**합니다.
@@ -90,60 +106,65 @@
 ```
 business-research-kokjip/
 ├── README.md
+├── KOKJIP-VPS-v2_0-rooted.md                                 # ★ 최종 제품 기준선: Value Proposition Statement v2.0
 ├── 01-porters-five-forces/
-│   ├── methodology.md                                # 분석 방법론 원문
-│   ├── case-01-kokjip-lecture-review-prioritizer.md  # ★ 주 사례: 콕집이 진입하는 산업 (압박 22/25)
-│   ├── reference-ai-education-edtech.md              # 참고: AX/DX 기업교육 산업 (공급 측 · 인접 배경)
-│   ├── reference-autonomous-driving-automotive.md    # 참고: 자율주행 자동차 산업 (대조군)
-│   └── reference-comparison-edtech-vs-automotive.md  # 참고 사례 간 비교
+│   ├── methodology.md                                        # 분석 방법론 원문
+│   ├── case-01-kokjip-lecture-review-prioritizer.md          # ★ 주 사례: 콕집이 진입하는 산업 (압박 22/25)
+│   ├── reference-ai-education-edtech.md                      # 참고: AX/DX 기업교육 산업 (공급 측 · 인접 배경)
+│   ├── reference-autonomous-driving-automotive.md            # 참고: 자율주행 자동차 산업 (대조군)
+│   └── reference-comparison-edtech-vs-automotive.md          # 참고 사례 간 비교
 ├── 02-value-chain/
-│   ├── methodology.md                                # 방법론 (도메인 중립 질문표 + 출력 포맷 + 치환 예시)
-│   ├── case-01-kokjip-lecture-review-prioritizer.md  # ★ 주 사례: 콕집의 가치사슬
-│   ├── reference-ai-education-edtech.md              # 참고: 교육 사업자의 가치사슬
-│   ├── reference-autonomous-driving-automotive.md    # 참고: 자율주행 완성차의 가치사슬
-│   └── reference-comparison-edtech-vs-automotive.md  # 참고 사례 간 비교
+│   ├── methodology.md                                        # 방법론 (도메인 중립 질문표 + 출력 포맷 + 치환 예시)
+│   ├── case-01-kokjip-lecture-review-prioritizer.md          # ★ 주 사례: 콕집의 가치사슬
+│   ├── reference-ai-education-edtech.md                      # 참고: 교육 사업자의 가치사슬
+│   ├── reference-autonomous-driving-automotive.md            # 참고: 자율주행 완성차의 가치사슬
+│   └── reference-comparison-edtech-vs-automotive.md          # 참고 사례 간 비교
 ├── 03-ksf/
-│   ├── new-entrant-top5-ksf.md                              # 신규 진입자를 위한 일반 KSF Top 5
-│   ├── ksf-case-evidence.md                                 # 각 KSF를 실제 기업 사례로 검증한 사례집
-│   └── case-01-kokjip-...-ksf-fit.md                        # ★ 주 사례: 콕집 KSF 적합도 진단 + 착수 순서
+│   ├── new-entrant-top5-ksf.md                               # 신규 진입자를 위한 일반 KSF Top 5
+│   ├── ksf-case-evidence.md                                  # 각 KSF를 실제 기업 사례로 검증한 사례집
+│   └── case-01-kokjip-...-ksf-fit.md                         # ★ 주 사례: 콕집 KSF 적합도 진단 + 착수 순서
 ├── 04-tam-sam-som-market-segment-map/
-│   ├── methodology.md                                       # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵)
-│   ├── case-01-kokjip-lecture-review-prioritizer.md         # ★ 시장 규모 산정 + 세그먼트 맵
-│   └── deep-research/                                       # 산정 근거 · 간이 리서치
-│       ├── methodology.md                                   # 딥 리서치 7단계 방법론
-│       ├── kokjip-sizing-evidence.md                        # 원천 데이터 · 계산 재현 · 민감도
-│       └── kokjip-research.md                               # 경쟁 실사 · 판정 근거 확정 · 녹음 권리 관행
+│   ├── methodology.md                                        # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵)
+│   ├── case-01-kokjip-lecture-review-prioritizer.md          # ★ 시장 규모 산정 + 세그먼트 맵
+│   └── deep-research/                                        # 산정 근거 · 간이 리서치
+│       ├── methodology.md                                    # 딥 리서치 7단계 방법론
+│       ├── kokjip-sizing-evidence.md                         # 원천 데이터 · 계산 재현 · 민감도
+│       └── kokjip-research.md                                # 경쟁 실사 · 판정 근거 확정 · 녹음 권리 관행
 ├── 05-persona-spectrum-journey-map/
-│   ├── methodology-journey-map.md                           # 방법론: 고객 여정지도
-│   ├── case-01-kokjip-...-personas.md                       # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
-│   ├── case-01-kokjip-...-persona-spectrum.md               # 01-B 페르소나 스펙트럼 원본 12종
-│   └── case-01-kokjip-...-journey-map.md                    # 01-C 유형별 여정지도 + 지불자(기관) 여정
+│   ├── methodology-journey-map.md                            # 방법론: 고객 여정지도
+│   ├── case-01-kokjip-...-personas.md                        # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
+│   ├── case-01-kokjip-...-persona-spectrum.md                # 01-B 페르소나 스펙트럼 원본 12종
+│   └── case-01-kokjip-...-journey-map.md                     # 01-C 유형별 여정지도 + 지불자(기관) 여정
 ├── 06-market-opportunity-score/
-│   ├── methodology.md                                       # 방법론: 기회점수 (OS→AOS + 사분면 Matrix)
-│   ├── methodology-dos.md                                   # 방법론(확장): DOS 시장 가중형 기회점수
-│   ├── case-01-kokjip-...-pain-list.md                      # ① CJM에서 추린 대표 Pain 15건 + Goal
-│   ├── case-01-kokjip-...-aos-matrix.md                     # ②~⑤ Importance·Satisfaction 채점 + AOS
-│   ├── case-01-kokjip-...-dos.md                            # ⑥ DOS 산출 (SAM 기준 · SOM 기준)
-│   └── case-01-kokjip-...-strategy.md                       # ⑦ 전략 함의
+│   ├── methodology.md                                        # 방법론: 기회점수 (OS→AOS + 사분면 Matrix)
+│   ├── methodology-dos.md                                    # 방법론(확장): DOS 시장 가중형 기회점수
+│   ├── case-01-kokjip-...-pain-list.md                       # ① CJM에서 추린 대표 Pain 15건 + Goal
+│   ├── case-01-kokjip-...-aos-matrix.md                      # ②~⑤ Importance·Satisfaction 채점 + AOS
+│   ├── case-01-kokjip-...-dos.md                             # ⑥ DOS 산출 (SAM 기준 · SOM 기준)
+│   └── case-01-kokjip-...-strategy.md                        # ⑦ 전략 함의
 ├── 07-jtbd/
-│   ├── methodology.md                                       # 방법론: 전환 행동 기반 인터뷰
-│   ├── case-01-kokjip-...-interview-guide.md                # ①~③ 대상 7명 + 스크리너 + 공통 32문
-│   └── case-01-kokjip-...-interview-transcripts.md          # ④~⑥ ⚫모의 응답 7인 + Job Statement 19문
+│   ├── methodology.md                                        # 방법론: 전환 행동 기반 인터뷰
+│   ├── case-01-kokjip-...-interview-guide.md                 # ①~③ 대상 7명 + 스크리너 + 공통 32문
+│   └── case-01-kokjip-...-interview-transcripts.md           # ④~⑥ ⚫모의 응답 7인 + Job Statement 19문
 ├── 08-competitor-value-declaration/
-│   └── case-01-kokjip-...-competitor-briefing.md            # ★ 경쟁 8곳 브리핑 + 가치 선언문 도출 + 종합 분석
-└── appendix-a-post-ai-learner-pain/                         # ◆ 부록: 본 트랙과 분리된 제로베이스 재탐색
-    ├── README.md                                            # 분리 원칙 + 콕집 가설 격리 선언
-    ├── methodology-zero-based-pain-discovery.md             # 방법론: 금지 목록 + 범용 AI 필터 + 판정 5문
-    ├── pain-inventory-post-ai-era.md                        # ★ A-1 Pain 14건 (상황·현재 해결 방식·판정)
-    ├── ai-substitutability-and-viability.md                 # ★ A-2 AI 대체 가능성 + 8기준 사업성 비교
-    ├── opportunity-map-and-validation-plan.md               # ★ A-3 Opportunity Map + 검증 과제 + 존폐 판단 기준
-    ├── p09-rehypothesis-korean-hiring.md                    # ★ A-4 P-09 재검토 (한국 채용시장 실사 · 선언 vs 실제)
-    ├── two-sided-pain-employer-vs-jobseeker.md              # ★ A-5 기업/취업자 Pain 분리 + 대체 수단 9종 비교
-    └── verdict-ai-competency-proof-market.md                # ★ A-6 종합 판정(수정) + 행동 실험 A~D + 사망 조건
+│   ├── case-01-kokjip-...-competitor-briefing.md             # ★ 경쟁 8곳 브리핑 + 가치 선언문 도출 + 종합 분석
+│   ├── case-01-kokjip-value-goal-reassessment.md             # ★ 가치목표 재검토 (A·B·C 위상 재정립)
+│   ├── KOKJIP-VPS-v1_0-merged.md                             # VPS v1.0 통합본
+│   └── KOKJIP-VPS-v2_0-rooted.md                             # ★ 최종 VPS v2.0 (근거 통합 기준 문서)
+└── appendix-a-post-ai-learner-pain/                          # ◆ 부록: 본 트랙과 분리된 제로베이스 재탐색
+    ├── README.md                                             # 분리 원칙 + 콕집 가설 격리 선언
+    ├── methodology-zero-based-pain-discovery.md              # 방법론: 금지 목록 + 범용 AI 필터 + 판정 5문
+    ├── pain-inventory-post-ai-era.md                         # ★ A-1 Pain 14건 (상황·현재 해결 방식·판정)
+    ├── ai-substitutability-and-viability.md                  # ★ A-2 AI 대체 가능성 + 8기준 사업성 비교
+    ├── opportunity-map-and-validation-plan.md                # ★ A-3 Opportunity Map + 검증 과제 + 존폐 판단 기준
+    ├── p09-rehypothesis-korean-hiring.md                     # ★ A-4 P-09 재검토 (한국 채용시장 실사 · 선언 vs 실제)
+    ├── two-sided-pain-employer-vs-jobseeker.md               # ★ A-5 기업/취업자 Pain 분리 + 대체 수단 9종 비교
+    └── verdict-ai-competency-proof-market.md                 # ★ A-6 종합 판정(수정) + 행동 실험 A~D + 사망 조건
 ```
 
 ## 근거의 한계를 명시한 것
 
 **챕터 07의 응답지는 ⚫ 모의(simulated)입니다.** 실제 인터뷰가 아니라 페르소나 카드에서 역산한 가상 응답이며, 용도는 **문항지 리허설·분석 파이프라인 시험**입니다. 근거로 쓰지 않습니다 → [응답지 머리말](./07-jtbd/case-01-kokjip-lecture-review-prioritizer-interview-transcripts.md#-이-문서의-근거-등급--먼저-읽어야-하는-것)
 
-**미해소 항목도 그대로 남겨 두었습니다.** 가장 큰 것은 개인 유료 전환율 · 기관 지불 단가 · 강사 발화의 신호 밀도 세 가지이고, 셋 다 **인터뷰와 1일짜리 실험으로 해소 가능**하다는 점까지 [Ch03 착수 순서](./03-ksf/case-01-kokjip-lecture-review-prioritizer-ksf-fit.md#한-장-요약--착수-순서)에 적어 두었습니다.
+**미해소 항목도 그대로 남겨 두었습니다.** 가장 큰 것은 개인 유료 전환율 · 기관 지불 단가 · 강사 발화의 신호 밀도 세 가지이고, 셋 다 **인터뷰와 1일짜리 실험으로 해소 가능**하다는 점까지 [Ch03 착수 순서](./03-ksf/case-01-kokjip-lecture-review-prioritizer-ksf-fit.md#한-장-요약--착수-순서) 및 [VPS v2.0 검증 계획](./08-competitor-value-declaration/KOKJIP-VPS-v2_0-rooted.md#7-핵심-미검증-가설-및-검증-계획-validation-plan)에 적어 두었습니다.
+
