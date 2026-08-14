@@ -127,18 +127,21 @@ business-research-kokjip/
 │   ├── ksf-case-evidence.md                                  # 각 KSF를 실제 기업 사례로 검증한 사례집
 │   └── case-01-kokjip-...-ksf-fit.md                         # ★ 주 사례: 콕집 KSF 적합도 진단 + 착수 순서
 ├── 04-tam-sam-som-market-segment-map/
+│   ├── integrated-market-sizing.md                           # ★ 04 시장 규모·세그먼트 분석 통합본
 │   ├── methodology.md                                        # 방법론 (3층 정의 + 산정 3방식 + 세그먼트 맵)
-│   ├── case-01-kokjip-lecture-review-prioritizer.md          # ★ 시장 규모 산정 + 세그먼트 맵
+│   ├── case-01-kokjip-lecture-review-prioritizer.md          # 주 사례: 시장 규모 산정 + 세그먼트 맵
 │   └── deep-research/                                        # 산정 근거 · 간이 리서치
 │       ├── methodology.md                                    # 딥 리서치 7단계 방법론
 │       ├── kokjip-sizing-evidence.md                         # 원천 데이터 · 계산 재현 · 민감도
 │       └── kokjip-research.md                                # 경쟁 실사 · 판정 근거 확정 · 녹음 권리 관행
 ├── 05-persona-spectrum-journey-map/
+│   ├── integrated-persona-journey.md                         # ★ 05 페르소나·고객여정지도 분석 통합본
 │   ├── methodology-journey-map.md                            # 방법론: 고객 여정지도
 │   ├── case-01-kokjip-...-personas.md                        # 01-A 기본 페르소나 6종 (사용·지불·영향 역할)
 │   ├── case-01-kokjip-...-persona-spectrum.md                # 01-B 페르소나 스펙트럼 원본 12종
 │   └── case-01-kokjip-...-journey-map.md                     # 01-C 유형별 여정지도 + 지불자(기관) 여정
 ├── 06-market-opportunity-score/
+│   ├── integrated-opportunity-score.md                       # ★ 06 시장 기회 점수·AOS/DOS 분석 통합본
 │   ├── methodology.md                                        # 방법론: 기회점수 (OS→AOS + 사분면 Matrix)
 │   ├── methodology-dos.md                                    # 방법론(확장): DOS 시장 가중형 기회점수
 │   ├── case-01-kokjip-...-pain-list.md                       # ① CJM에서 추린 대표 Pain 15건 + Goal
@@ -146,6 +149,7 @@ business-research-kokjip/
 │   ├── case-01-kokjip-...-dos.md                             # ⑥ DOS 산출 (SAM 기준 · SOM 기준)
 │   └── case-01-kokjip-...-strategy.md                        # ⑦ 전략 함의
 ├── 07-jtbd/
+│   ├── integrated-jtbd.md                                    # ★ 07 JTBD·전환행동 분석 통합본
 │   ├── methodology.md                                        # 방법론: 전환 행동 기반 인터뷰
 │   ├── case-01-kokjip-...-interview-guide.md                 # ①~③ 대상 7명 + 스크리너 + 공통 32문
 │   └── case-01-kokjip-...-interview-transcripts.md           # ④~⑥ ⚫모의 응답 7인 + Job Statement 19문
