@@ -107,6 +107,9 @@
 business-research-kokjip/
 ├── README.md
 ├── KOKJIP-VPS-v2_0-rooted.md                                 # ★ 최종 제품 기준선: Value Proposition Statement v2.0
+├── 01-research/
+│   ├── README.md                                             # 기준 리서치 디렉터리 안내
+│   └── integrated-baseline-research.md                       # ★ 기준 리서치 통합본 (01~08 공식 근거 기준선)
 ├── 01-porters-five-forces/
 │   ├── methodology.md                                        # 분석 방법론 원문
 │   ├── case-01-kokjip-lecture-review-prioritizer.md          # ★ 주 사례: 콕집이 진입하는 산업 (압박 22/25)
